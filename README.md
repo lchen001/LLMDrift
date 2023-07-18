@@ -10,7 +10,7 @@ GPT-3.5 (June 2023) was much better than GPT-3.5 (March 2023) in this task. We h
 
 ## 🚀 Getting Started
 
-You can directly run the  [Google Colab Notebook](https://colab.research.google.com/LLMDriftNotebook.ipynb) to reproduce the monitored performance drifts in [our paper](). You don't need API keys to get started.
+You can directly run the  [Google Colab Notebook](https://colab.research.google.com/github/lchen001/LLMDrift/blob/main/Intro.ipynb) to reproduce the monitored performance drifts in [our paper](). You don't need API keys to get started.
 
 
 ## 🔧 Installation
