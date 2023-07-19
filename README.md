@@ -8,7 +8,7 @@ Large language models (LLM) services such as GPT-4 and GPT-3.5 are widely being 
 ## 🔍 Main Findings
 
 <p align="center">
-  <img align="center" src="asset/intro.pdf" width="460px" />
+  <img align="center" src="asset/intro.png" width="460px" />
 </p>
 <p align="left">
   <b>Figure 1:</b> Performance of the March 2023 and June 2023 versions of GPT-4 and GPT-3.5 on four
