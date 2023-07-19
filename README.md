@@ -23,7 +23,7 @@ GPT-3.5 (June 2023) was much better than GPT-3.5 (March 2023) in this task. We h
 
 ## 🚀 Reproducing the Results
 
-You can directly run the  [Google Colab Notebook](https://colab.research.google.com/github/lchen001/LLMDrift/blob/main/Intro.ipynb) to reproduce the monitored performance drifts in [our paper](https://arxiv.org/pdf/2307.09009.pdf). You don't need API keys to get started. You can also use the [local intro notebook](intro.ipynb) directly.
+You can directly run the  [Google Colab Notebook](https://colab.research.google.com/github/lchen001/LLMDrift/blob/main/Intro.ipynb) to reproduce the monitored performance drifts in [our paper](https://arxiv.org/pdf/2307.09009.pdf). You don't need API keys to get started. You can also use the [local intro notebook](Intro.ipynb) directly.
 
 
 ## 💾 Datasets and Generations
@@ -34,7 +34,7 @@ The datasets and generations can be found under ```generation/```. Each csv file
   <img align="center" src="asset/generationexample.png" width="460px" />
 </p>
 <p align="left">
-  <b>Figure 1:</b> The first few rows in the LLM  generations on PRIME dataset.
+  <b>Figure 2:</b> The first few rows in the LLM  generations on PRIME dataset.
 </p>
 
 The above figure shows the first few rows in the ```generation/PRIME_EVAL.csv```. It includes the model, query parameters (such as temperature), the query, the reference answer, the generated answer, and latency.  Such information could be leverage to study various aspects of LLM services.
