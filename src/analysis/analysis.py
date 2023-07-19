@@ -16,6 +16,7 @@ class Analysis(object):
         return
     
     def get_verbosity(self,data):
+        data['answer'] = data['answer'].astype(str)
         data['verbosity'] = data['answer'].apply(len)
         average_lengths = data.groupby('model')['verbosity'].mean()
         scores_std = data.groupby('model')['verbosity'].std(ddof=0) / numpy.sqrt(data.groupby('model').size())
