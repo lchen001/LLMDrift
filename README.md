@@ -55,11 +55,11 @@ You can find more details in the academic paper:
 
 ### 🔹 [2023.08.01] - Added Tasks & Expanded Queries & Analysis
 - ✅ Added four new tasks to the repository
-- 🎢  Expanded one existing task with more diverse queries
-- 🔍 Additional analysis in the paper
+- ✅ Expanded one existing task with more diverse queries
+- ✅ Additional analysis in the paper
 
 ### 🔹 [2023.07.18] - Initial Release
-- 🎊  The project is now live!
+- ✅ The project is now live!
 
 ## 🎯 Reference
 
