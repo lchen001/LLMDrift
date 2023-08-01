@@ -37,7 +37,7 @@ The datasets and generations can be found under ```generation/```. Each csv file
   <b>Figure 2:</b> The first few rows in the LLM  generations on PRIME dataset.
 </p>
 
-The above figure shows the first few rows in the ```generation/PRIME_FULL_EVAL.csv```. It includes the model, query parameters (e.g. temperature), the query, the reference answer, the generated answer, and latency.  Such information could be leverage to study various aspects of LLM services.
+The above figure shows the first few rows in the ```generation/PRIME_FULL_EVAL.csv```. It includes the model, query parameters (such as temperature and max token size), the query, the reference answer, the generated answer, and latency.  Such information could be leverage to study various aspects of LLM services.
 
 ## 📚 Read More
 
