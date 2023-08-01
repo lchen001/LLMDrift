@@ -53,6 +53,7 @@ You can find more details in the academic paper:
 
 ## 📣 Updates & Changelog
 
+
 ### 🔹 2023.08.01 - Added Tasks, Expanded Queries & Analysis
   - ✅ Added four new tasks to the repository
   - ✅ Expanded one existing task with more diverse queries
