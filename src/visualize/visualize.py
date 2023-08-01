@@ -14,6 +14,7 @@ class Visualize(object):
                   yrange=[0,1],
                   name_map={'openaichat/gpt-4-0314':'March 2023',"openaichat/gpt-4-0613":"June 2023"},
                  no_text=False,
+                 y_name=True,
                  ):
         # Select the desired data
         names = [key1 for key1 in name_map]
@@ -31,7 +32,7 @@ class Visualize(object):
             textposition='auto',
             marker_color=colors,  # change this to the colors you want
             
-            error_y=dict(type='data', array=errors.values, visible=True),  # add error bars
+            #error_y=dict(type='data', array=errors.values, visible=True),  # add error bars
         )])
         else:
             fig = go.Figure(data=[go.Bar(
@@ -41,14 +42,14 @@ class Visualize(object):
             textposition='auto',
             marker_color=colors,  # change this to the colors you want
             
-            error_y=dict(type='data', array=errors.values, visible=True),  # add error bars
+            #error_y=dict(type='data', array=errors.values, visible=True),  # add error bars
         )])
 
         fig.update_layout(
             autosize=True,
             margin=go.layout.Margin(l=150, r=0, b=0, t=0),
             width=700,  # set figure width here
-            height=500,  # set figure height here
+            height=450,  # set figure height here
             #title_text='Performance of Selected Models',
             font=dict(
                 size=fontsize,  # change this to the font size you want
@@ -63,6 +64,9 @@ class Visualize(object):
             #yaxis_title=selected_data.name,  # add y-axis label here
 
         )
+        if(y_name==True):
+            fig.update_layout(yaxis_title=selected_data.name)
+
         fig.show()   
         self.fig = fig
         
@@ -92,7 +96,7 @@ class Visualize(object):
             textposition='auto',
             marker_color=colors,  # change this to the colors you want
             
-            error_y=dict(type='data', array=errors, visible=True),  # add error bars
+            #error_y=dict(type='data', array=errors, visible=True),  # add error bars
         )])
         
         errors_max = [selected_data[i]+errors[i] for i in range(len(selected_data))]
@@ -101,7 +105,7 @@ class Visualize(object):
             autosize=True,
             margin=go.layout.Margin(l=150, r=0, b=0, t=0),
             width=350,  # set figure width here
-            height=500,  # set figure height here
+            height=450,  # set figure height here
             #title_text='Performance of Selected Models',
             font=dict(
                 size=fontsize,  # change this to the font size you want
