@@ -59,6 +59,7 @@ You can find more details in the academic paper:
   - ✅ Expanded one existing task with more diverse queries
   - ✅ Additional analysis in the paper
 
+
 ### 🔹 2023.07.18 - Initial Release
   - ✅ The project is now live!
 
