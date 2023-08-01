@@ -59,7 +59,7 @@ You can find more details in the academic paper:
   - ✅ Additional analysis in the paper
 
 ### 🔹 2023.07.18 - Initial Release
-  -✅ The project is now live!
+  - ✅ The project is now live!
 
 ## 🎯 Reference
 
