@@ -17,8 +17,8 @@ performances of GPT-4 and GPT-3.5 can vary substantially over time, and for the 
 </p>
 
 
-What are the main findings? In a nutshell, there are many interesting performance shifts over time. For example, GPT-4 (March 2023) was very good at identifying prime numbers (accuracy 97.6%)
-but GPT-4 (June 2023) was very poor on these same questions (accuracy 2.4%). Interestingly
+What are the main findings? In a nutshell, there are many interesting performance shifts over time. For example, GPT-4 (March 2023) was very good at identifying prime numbers (accuracy 84.0%)
+but GPT-4 (June 2023) was very poor on these same questions (accuracy 51.1%). Interestingly
 GPT-3.5 (June 2023) was much better than GPT-3.5 (March 2023) in this task. We hope releasing the datasets and generations can help the community to understand how LLM services drift better. The above figure gives a quantatitive summary.
 
 ## 🚀 Reproducing the Results
@@ -41,9 +41,25 @@ The above figure shows the first few rows in the ```generation/PRIME_EVAL.csv```
 
 ## 📚 Read More
 
+You can get an overview via our Twitter threads:
+
+[**Introducing LLM Drifts**](https://twitter.com/matei_zaharia/status/1681467961905926144) (July 18, 2023)
+
+[**Additional Explanations**](https://twitter.com/james_y_zou/status/1681519439613956099) (July 23rd, 2023)
 
 You can find more details in the academic paper:
 * [**How Is ChatGPT’s Behavior Changing over Time?**](https://arxiv.org/pdf/2307.09009.pdf)
+
+
+## 📣 Updates & Changelog
+
+### 🔹 [2023.08.01] - Added Tasks & Expanded Queries & Analysis
+- ✅ Added four new tasks to the repository
+- 🎢  Expanded one existing task with more diverse queries
+- 🔍 Additional analysis in the paper
+
+### 🔹 [2023.07.18] - Initial Release
+- 🎊  The project is now live!
 
 ## 🎯 Reference
 
