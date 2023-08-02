@@ -11,8 +11,8 @@ Large language models (LLM) services such as GPT-4 and GPT-3.5 are widely being 
   <img align="center" src="asset/intro.png" width="460px" />
 </p>
 <p align="left">
-  <b>Figure 1:</b> Performance of the March 2023 and June 2023 versions of GPT-4 and GPT-3.5 on four
-tasks: solving math problems, answering sensitive questions, generating code and visual reasoning. The
+  <b>Figure 1:</b> Performance of the March 2023 and June 2023 versions of GPT-4 and GPT-3.5 on several diverse
+tasks: solving math problems, answering sensitive questions, taking surveys, answering knowledge intensive questions, generating code and visual reasoning. The
 performances of GPT-4 and GPT-3.5 can vary substantially over time, and for the worse in some tasks.
 </p>
 
@@ -45,7 +45,12 @@ You can get an overview via our Twitter threads:
 
 [**Introducing LLM Drifts**](https://twitter.com/matei_zaharia/status/1681467961905926144) (July 18, 2023)
 
-[**Additional Explanations**](https://twitter.com/james_y_zou/status/1681519439613956099) (July 23rd, 2023)
+[**More Explanations**](https://twitter.com/james_y_zou/status/1681519439613956099) (July 23rd, 2023)
+
+[**Updated and Expanded**](https://twitter.com/matei_zaharia/status/1686796492517134337) [**Evaluation**](https://twitter.com/james_y_zou/status/1686762372332220417) (August 2nd, 2023)
+
+
+
 
 You can find more details in the academic paper:
 * [**How Is ChatGPT’s Behavior Changing over Time?**](https://arxiv.org/pdf/2307.09009.pdf)
