@@ -11,7 +11,8 @@ To use this suite, perform the following steps:
 
 - Download the package and navigate to the monitor directory
 
-```git clone https://github.com/lchen001/LLMDrift 
+```
+git clone https://github.com/lchen001/LLMDrift 
 cd LLMDrift/src/monitor/
 ```
 
@@ -20,20 +21,25 @@ cd LLMDrift/src/monitor/
 
 (Optional but recommended) Create a conda environment.
 
-```conda create -n LLMDrift python=3.9
-   conda activate LLMDrift
+```
+conda create -n LLMDrift python=3.9
+conda activate LLMDrift
 ```
 
 Install all dependent libraries.
  
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 
 
 - Next, you need to set up OPENAI\_API\_KEY by
 
-```export OPENAI_API_KEY='YOUR API KEY' ```
+```
+export OPENAI_API_KEY='YOUR API KEY' 
+```
 
 
 
