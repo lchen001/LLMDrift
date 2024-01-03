@@ -8,19 +8,24 @@ class Visualize(object):
         return 
     
     def plot_bars(self,data,
-                  errors_bar,
+                  errors_bar_upper,
+                  errors_bar_lower,
+                  
                  colors=['#1f77b4','#ff7f0e'],
                   fontsize=25,
                   yrange=[0,1],
                   name_map={'openaichat/gpt-4-0314':'March 2023',"openaichat/gpt-4-0613":"June 2023"},
                  no_text=False,
                  y_name=True,
+                  visible_error=True,
                  ):
         # Select the desired data
         names = [key1 for key1 in name_map]
         selected_data = data[names].rename(index=name_map)
         
-        errors = errors_bar[names].rename(index=name_map)
+        error_upper = errors_bar_upper[names].rename(index=name_map)
+        error_lower = errors_bar_lower[names].rename(index=name_map)
+
         percentage_values = selected_data.values * 100
         # Create the bar plot
         if(no_text==True):
@@ -31,7 +36,7 @@ class Visualize(object):
                 
             textposition='auto',
             marker_color=colors,  # change this to the colors you want
-            
+            error_y=dict(type='data', array=error_upper.values, arrayminus=error_lower.values, visible=visible_error),
             #error_y=dict(type='data', array=errors.values, visible=True),  # add error bars
         )])
         else:
@@ -42,6 +47,9 @@ class Visualize(object):
             textposition='auto',
             marker_color=colors,  # change this to the colors you want
             
+                
+            error_y=dict(type='data', array=error_upper.values, arrayminus=error_lower.values, visible=visible_error),  # add error bars
+                
             #error_y=dict(type='data', array=errors.values, visible=True),  # add error bars
         )])
 
@@ -69,19 +77,26 @@ class Visualize(object):
 
         fig.show()   
         self.fig = fig
+        return fig
         
     def plot_bar(self,score,
-                  errors_bar,
+                  errors_bar_upper,
+                  errors_bar_lower=0,
                  colors=['#9467bd','#1f77b4','#ff7f0e'],
                   fontsize=25,
                   yrange=[0,1],
                   name_map={'openaichat/gpt-4-0314':'March 2023',"openaichat/gpt-4-0613":"June 2023"},
-                 ):
+                visible_error=True, 
+                ):
         # Select the desired data
         names = ['']
         selected_data = [score]
         
-        errors = [errors_bar]
+        #errors = [errors_bar]
+        
+        e1 = [errors_bar_upper]
+        e0 = [errors_bar_lower]
+        errors = e1        
         #selected_data = data.loc[['openaichat/gpt-4-0314', 'openaichat/gpt-4-0613']]
         #print("selected_data",selected_data)
         percentage_values = [temp*100 for temp in selected_data] 
@@ -96,6 +111,7 @@ class Visualize(object):
             textposition='auto',
             marker_color=colors,  # change this to the colors you want
             
+            error_y=dict(type='data', array=e1, arrayminus=e0, visible=visible_error), 
             #error_y=dict(type='data', array=errors, visible=True),  # add error bars
         )])
         
@@ -103,7 +119,7 @@ class Visualize(object):
         #'''
         fig.update_layout(
             autosize=True,
-            margin=go.layout.Margin(l=150, r=0, b=0, t=0),
+            margin=go.layout.Margin(l=10, r=0, b=0, t=0),
             width=350,  # set figure width here
             height=450,  # set figure height here
             #title_text='Performance of Selected Models',
@@ -124,7 +140,8 @@ class Visualize(object):
         #'''
 
         fig.show()   
-        self.fig = fig        
+        self.fig = fig
+        return fig
         
     def save_figure(self, filename):
         py.write_image(self.fig, self.root_path+filename)

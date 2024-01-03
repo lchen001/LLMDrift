@@ -1,5 +1,5 @@
-,model,temperature,max_tokens,trail,dataset,id,query,ref_answer,answer,latency,cost,date,timestamp,Code_Submit,Directly Usable,Clean_Code_Submit
-0,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2769-find-the-maximum-achievable-number,"# [Find the Maximum Achievable Number][title]
+,Unnamed: 0,model,temperature,max_tokens,trail,dataset,id,query,ref_answer,answer,latency,cost,date,timestamp,Code_Submit,Directly Usable,Clean_Code_Submit,answer_token,latency_per_token
+0,0,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2769-find-the-maximum-achievable-number,"# [Find the Maximum Achievable Number][title]
 
 ## Description
 
@@ -78,8 +78,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '4\n1'
   ✘ answer: 
   ✘ stdout: '5'
-"
-1,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2769-find-the-maximum-achievable-number,"# [Find the Maximum Achievable Number][title]
+",107,0.02557839188620309
+1,1,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2769-find-the-maximum-achievable-number,"# [Find the Maximum Achievable Number][title]
 
 ## Description
 
@@ -142,8 +142,8 @@ class Solution(object):
   ✘ testcase: '4\n1'
   ✘ answer: 
   ✘ stdout: '5'
-"
-2,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2769-find-the-maximum-achievable-number,"# [Find the Maximum Achievable Number][title]
+",67,0.028663798944273983
+2,2,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2769-find-the-maximum-achievable-number,"# [Find the Maximum Achievable Number][title]
 
 ## Description
 
@@ -212,8 +212,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '4\n1'
   ✘ answer: 
   ✘ stdout: '5'
-"
-3,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2769-find-the-maximum-achievable-number,"# [Find the Maximum Achievable Number][title]
+",51,0.1114346186319987
+3,3,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2769-find-the-maximum-achievable-number,"# [Find the Maximum Achievable Number][title]
 
 ## Description
 
@@ -276,8 +276,8 @@ Line 1  (Solution.py)
   ✘ testcase: '4\n1'
   ✘ answer: 
   ✘ stdout: ''
-"
-4,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2765-longest-alternating-subarray,"# [Longest Alternating Subarray][title]
+",14,0.07339041573660714
+4,4,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2765-longest-alternating-subarray,"# [Longest Alternating Subarray][title]
 
 ## Description
 
@@ -355,8 +355,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '[21,9,5]'
   ✘ answer: 
   ✘ stdout: '2'
-"
-5,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2765-longest-alternating-subarray,"# [Longest Alternating Subarray][title]
+",131,0.08900112414178048
+5,5,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2765-longest-alternating-subarray,"# [Longest Alternating Subarray][title]
 
 ## Description
 
@@ -427,8 +427,8 @@ class Solution(object):
   ✘ testcase: '[31,32,31,32,33]'
   ✘ answer: 
   ✘ stdout: '2'
-"
-6,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2765-longest-alternating-subarray,"# [Longest Alternating Subarray][title]
+",119,0.041376356317215604
+6,6,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2765-longest-alternating-subarray,"# [Longest Alternating Subarray][title]
 
 ## Description
 
@@ -509,8 +509,8 @@ class Solution(object):
   ✘ testcase: '[2,3,4,3,4]'
   ✘ answer: 
   ✘ stdout: '-1'
-"
-7,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2765-longest-alternating-subarray,"# [Longest Alternating Subarray][title]
+",184,0.014169844596282295
+7,7,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2765-longest-alternating-subarray,"# [Longest Alternating Subarray][title]
 
 ## Description
 
@@ -591,8 +591,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '[2,3,4,3,4]'
   ✘ answer: 
   ✘ stdout: '5'
-"
-8,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2760-longest-even-odd-subarray-with-threshold,"# [Longest Even Odd Subarray With Threshold][title]
+",110,0.02597407644445246
+8,8,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2760-longest-even-odd-subarray-with-threshold,"# [Longest Even Odd Subarray With Threshold][title]
 
 ## Description
 
@@ -696,8 +696,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '[3,2,5,4]\n5'
   ✘ answer: 
   ✘ stdout: '1'
-"
-9,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2760-longest-even-odd-subarray-with-threshold,"# [Longest Even Odd Subarray With Threshold][title]
+",236,0.02531586764222485
+9,9,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2760-longest-even-odd-subarray-with-threshold,"# [Longest Even Odd Subarray With Threshold][title]
 
 ## Description
 
@@ -794,8 +794,8 @@ class Solution(object):
   ✘ testcase: '[3,2,5,4]\n5'
   ✘ answer: 
   ✘ stdout: '4'
-"
-10,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2760-longest-even-odd-subarray-with-threshold,"# [Longest Even Odd Subarray With Threshold][title]
+",248,0.027024999741585023
+10,10,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2760-longest-even-odd-subarray-with-threshold,"# [Longest Even Odd Subarray With Threshold][title]
 
 ## Description
 
@@ -883,8 +883,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 6873/6873 cases passed (473 ms)
   ✔ Your runtime beats 50.14 % of python submissions
-"
-11,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2760-longest-even-odd-subarray-with-threshold,"# [Longest Even Odd Subarray With Threshold][title]
+",158,0.08920782729040218
+11,11,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2760-longest-even-odd-subarray-with-threshold,"# [Longest Even Odd Subarray With Threshold][title]
 
 ## Description
 
@@ -968,8 +968,8 @@ class Solution(object):
   ✘ testcase: '[3,2,5,4]\n5'
   ✘ answer: 
   ✘ stdout: '4'
-"
-12,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2748-number-of-beautiful-pairs,"# [Number of Beautiful Pairs][title]
+",136,0.03534184659228606
+12,12,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2748-number-of-beautiful-pairs,"# [Number of Beautiful Pairs][title]
 
 ## Description
 
@@ -1052,8 +1052,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '[2,5,1,4]'
   ✘ answer: 
   ✘ stdout: '1'
-"
-13,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2748-number-of-beautiful-pairs,"# [Number of Beautiful Pairs][title]
+",118,0.028826863078747766
+13,13,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2748-number-of-beautiful-pairs,"# [Number of Beautiful Pairs][title]
 
 ## Description
 
@@ -1139,8 +1139,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '[2,5,1,4]'
   ✘ answer: 
   ✘ stdout: '1'
-"
-14,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2748-number-of-beautiful-pairs,"# [Number of Beautiful Pairs][title]
+",160,0.02707526832818985
+14,14,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2748-number-of-beautiful-pairs,"# [Number of Beautiful Pairs][title]
 
 ## Description
 
@@ -1210,8 +1210,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 3005/3005 cases passed (870 ms)
   ✔ Your runtime beats 54 % of python submissions
-"
-15,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2748-number-of-beautiful-pairs,"# [Number of Beautiful Pairs][title]
+",131,0.11308512978881372
+15,15,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2748-number-of-beautiful-pairs,"# [Number of Beautiful Pairs][title]
 
 ## Description
 
@@ -1296,8 +1296,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 3005/3005 cases passed (464 ms)
   ✔ Your runtime beats 85.42 % of python submissions
-"
-16,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2744-find-maximum-number-of-string-pairs,"# [Find Maximum Number of String Pairs][title]
+",154,0.10207604123400402
+16,16,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2744-find-maximum-number-of-string-pairs,"# [Find Maximum Number of String Pairs][title]
 
 ## Description
 
@@ -1379,8 +1379,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 659/659 cases passed (28 ms)
   ✔ Your runtime beats 75.9 % of python submissions
-"
-17,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2744-find-maximum-number-of-string-pairs,"# [Find Maximum Number of String Pairs][title]
+",93,0.1340990245983165
+17,17,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2744-find-maximum-number-of-string-pairs,"# [Find Maximum Number of String Pairs][title]
 
 ## Description
 
@@ -1453,8 +1453,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 659/659 cases passed (23 ms)
   ✔ Your runtime beats 90.6 % of python submissions
-"
-18,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2744-find-maximum-number-of-string-pairs,"# [Find Maximum Number of String Pairs][title]
+",110,0.0280609130859375
+18,18,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2744-find-maximum-number-of-string-pairs,"# [Find Maximum Number of String Pairs][title]
 
 ## Description
 
@@ -1530,8 +1530,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 659/659 cases passed (20 ms)
   ✔ Your runtime beats 92.65 % of python submissions
-"
-19,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2744-find-maximum-number-of-string-pairs,"# [Find Maximum Number of String Pairs][title]
+",129,0.050625882407491524
+19,19,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2744-find-maximum-number-of-string-pairs,"# [Find Maximum Number of String Pairs][title]
 
 ## Description
 
@@ -1617,8 +1617,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 659/659 cases passed (28 ms)
   ✔ Your runtime beats 75.9 % of python submissions
-"
-20,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2739-total-distance-traveled,"# [Total Distance Traveled][title]
+",116,0.025802647245341336
+20,20,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2739-total-distance-traveled,"# [Total Distance Traveled][title]
 
 ## Description
 
@@ -1698,8 +1698,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 10002/10002 cases passed (43 ms)
   ✔ Your runtime beats 93.89 % of python submissions
-"
-21,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2739-total-distance-traveled,"# [Total Distance Traveled][title]
+",118,0.11100533857183942
+21,21,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2739-total-distance-traveled,"# [Total Distance Traveled][title]
 
 ## Description
 
@@ -1784,8 +1784,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '5\n10'
   ✘ answer: 
   ✘ stdout: '50'
-"
-22,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2739-total-distance-traveled,"# [Total Distance Traveled][title]
+",137,0.02732250464223597
+22,22,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2739-total-distance-traveled,"# [Total Distance Traveled][title]
 
 ## Description
 
@@ -1858,8 +1858,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 10002/10002 cases passed (55 ms)
   ✔ Your runtime beats 80.39 % of python submissions
-"
-23,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2739-total-distance-traveled,"# [Total Distance Traveled][title]
+",125,0.03561495208740234
+23,23,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2739-total-distance-traveled,"# [Total Distance Traveled][title]
 
 ## Description
 
@@ -1941,8 +1941,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '5\n10'
   ✘ answer: 
   ✘ stdout: '50'
-"
-24,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2733-neither-minimum-nor-maximum,"# [Neither Minimum nor Maximum][title]
+",114,0.025452059611939547
+24,24,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2733-neither-minimum-nor-maximum,"# [Neither Minimum nor Maximum][title]
 
 ## Description
 
@@ -2012,8 +2012,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 9558/9558 cases passed (291 ms)
   ✔ Your runtime beats 94.9 % of python submissions
-"
-25,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2733-neither-minimum-nor-maximum,"# [Neither Minimum nor Maximum][title]
+",61,0.016903619297215195
+25,25,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2733-neither-minimum-nor-maximum,"# [Neither Minimum nor Maximum][title]
 
 ## Description
 
@@ -2075,8 +2075,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 9558/9558 cases passed (301 ms)
   ✔ Your runtime beats 94.82 % of python submissions
-"
-26,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2733-neither-minimum-nor-maximum,"# [Neither Minimum nor Maximum][title]
+",60,0.13289992411931353
+26,26,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2733-neither-minimum-nor-maximum,"# [Neither Minimum nor Maximum][title]
 
 ## Description
 
@@ -2151,8 +2151,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 9558/9558 cases passed (284 ms)
   ✔ Your runtime beats 94.9 % of python submissions
-"
-27,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2733-neither-minimum-nor-maximum,"# [Neither Minimum nor Maximum][title]
+",101,0.026206946609043845
+27,27,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2733-neither-minimum-nor-maximum,"# [Neither Minimum nor Maximum][title]
 
 ## Description
 
@@ -2221,8 +2221,8 @@ Line 5  (Solution.py)
   ✘ testcase: '[3,2,1,4]'
   ✘ answer: 
   ✘ stdout: ''
-"
-28,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2729-check-if-the-number-is-fascinating,"# [Check if The Number is Fascinating][title]
+",36,0.04902478059132894
+28,28,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2729-check-if-the-number-is-fascinating,"# [Check if The Number is Fascinating][title]
 
 ## Description
 
@@ -2282,8 +2282,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 900/900 cases passed (7 ms)
   ✔ Your runtime beats 93.21 % of python submissions
-"
-29,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2729-check-if-the-number-is-fascinating,"# [Check if The Number is Fascinating][title]
+",88,0.03774852373383262
+29,29,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2729-check-if-the-number-is-fascinating,"# [Check if The Number is Fascinating][title]
 
 ## Description
 
@@ -2356,8 +2356,8 @@ class Solution(object):
   ✘ testcase: '783'
   ✘ answer: 
   ✘ stdout: 'true'
-"
-30,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2729-check-if-the-number-is-fascinating,"# [Check if The Number is Fascinating][title]
+",126,0.03452513331458683
+30,30,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2729-check-if-the-number-is-fascinating,"# [Check if The Number is Fascinating][title]
 
 ## Description
 
@@ -2437,8 +2437,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '783'
   ✘ answer: 
   ✘ stdout: 'true'
-"
-31,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2729-check-if-the-number-is-fascinating,"# [Check if The Number is Fascinating][title]
+",130,0.026244046137883115
+31,31,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2729-check-if-the-number-is-fascinating,"# [Check if The Number is Fascinating][title]
 
 ## Description
 
@@ -2510,8 +2510,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 900/900 cases passed (25 ms)
   ✔ Your runtime beats 23.46 % of python submissions
-"
-32,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2717-semi-ordered-permutation,"# [Semi-Ordered Permutation][title]
+",109,0.14188334919990747
+32,32,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2717-semi-ordered-permutation,"# [Semi-Ordered Permutation][title]
 
 ## Description
 
@@ -2599,8 +2599,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '[2,4,1,3]'
   ✘ answer: 
   ✘ stdout: '2'
-"
-33,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2717-semi-ordered-permutation,"# [Semi-Ordered Permutation][title]
+",371,0.1314972449505747
+33,33,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2717-semi-ordered-permutation,"# [Semi-Ordered Permutation][title]
 
 ## Description
 
@@ -2679,8 +2679,8 @@ class Solution(object):
   ✘ testcase: '[2,4,1,3]'
   ✘ answer: 
   ✘ stdout: '4'
-"
-34,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2717-semi-ordered-permutation,"# [Semi-Ordered Permutation][title]
+",99,0.1208985477986962
+34,34,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2717-semi-ordered-permutation,"# [Semi-Ordered Permutation][title]
 
 ## Description
 
@@ -2777,8 +2777,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '[2,4,1,3]'
   ✘ answer: 
   ✘ stdout: '2'
-"
-35,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2717-semi-ordered-permutation,"# [Semi-Ordered Permutation][title]
+",239,0.02517565324216707
+35,35,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2717-semi-ordered-permutation,"# [Semi-Ordered Permutation][title]
 
 ## Description
 
@@ -2877,8 +2877,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '[2,4,1,3]'
   ✘ answer: 
   ✘ stdout: '2'
-"
-36,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2716-minimize-string-length,"# [Minimize String Length][title]
+",312,0.02782049087377695
+36,36,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2716-minimize-string-length,"# [Minimize String Length][title]
 
 ## Description
 
@@ -2950,8 +2950,8 @@ class Solution(object):
   ✘ testcase: '""cbbd""'
   ✘ answer: 
   ✘ stdout: '2'
-"
-37,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2716-minimize-string-length,"# [Minimize String Length][title]
+",67,0.05582599141704502
+37,37,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2716-minimize-string-length,"# [Minimize String Length][title]
 
 ## Description
 
@@ -3061,8 +3061,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '""aaabc""'
   ✘ answer: 
   ✘ stdout: '2'
-"
-38,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2716-minimize-string-length,"# [Minimize String Length][title]
+",301,0.025809972389195846
+38,38,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2716-minimize-string-length,"# [Minimize String Length][title]
 
 ## Description
 
@@ -3174,8 +3174,8 @@ Line 66 in <module> (Solution.py)
   ✘ testcase: '""aaabc""'
   ✘ answer: 
   ✘ stdout: ''
-"
-39,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2716-minimize-string-length,"# [Minimize String Length][title]
+",279,0.027296992612995983
+39,39,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2716-minimize-string-length,"# [Minimize String Length][title]
 
 ## Description
 
@@ -3254,8 +3254,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '""cbbd""'
   ✘ answer: 
   ✘ stdout: '2'
-"
-40,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2710-remove-trailing-zeros-from-a-string,"# [Remove Trailing Zeros From a String][title]
+",71,0.126993478184015
+40,40,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2710-remove-trailing-zeros-from-a-string,"# [Remove Trailing Zeros From a String][title]
 
 ## Description
 
@@ -3306,8 +3306,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 756/756 cases passed (18 ms)
   ✔ Your runtime beats 88.12 % of python submissions
-"
-41,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2710-remove-trailing-zeros-from-a-string,"# [Remove Trailing Zeros From a String][title]
+",39,0.0465853214263916
+41,41,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2710-remove-trailing-zeros-from-a-string,"# [Remove Trailing Zeros From a String][title]
 
 ## Description
 
@@ -3367,8 +3367,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 756/756 cases passed (18 ms)
   ✔ Your runtime beats 88.12 % of python submissions
-"
-42,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2710-remove-trailing-zeros-from-a-string,"# [Remove Trailing Zeros From a String][title]
+",43,0.17241372064102528
+42,42,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2710-remove-trailing-zeros-from-a-string,"# [Remove Trailing Zeros From a String][title]
 
 ## Description
 
@@ -3425,8 +3425,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 756/756 cases passed (27 ms)
   ✔ Your runtime beats 64.5 % of python submissions
-"
-43,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2710-remove-trailing-zeros-from-a-string,"# [Remove Trailing Zeros From a String][title]
+",99,0.029506570160991015
+43,43,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2710-remove-trailing-zeros-from-a-string,"# [Remove Trailing Zeros From a String][title]
 
 ## Description
 
@@ -3483,8 +3483,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 756/756 cases passed (27 ms)
   ✔ Your runtime beats 64.5 % of python submissions
-"
-44,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2706-buy-two-chocolates,"# [Buy Two Chocolates][title]
+",105,0.027887814385550363
+44,44,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2706-buy-two-chocolates,"# [Buy Two Chocolates][title]
 
 ## Description
 
@@ -3559,8 +3559,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 2003/2003 cases passed (30 ms)
   ✔ Your runtime beats 94.93 % of python submissions
-"
-45,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2706-buy-two-chocolates,"# [Buy Two Chocolates][title]
+",82,0.09558789904524641
+45,45,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2706-buy-two-chocolates,"# [Buy Two Chocolates][title]
 
 ## Description
 
@@ -3628,8 +3628,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 2003/2003 cases passed (38 ms)
   ✔ Your runtime beats 91.47 % of python submissions
-"
-46,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2706-buy-two-chocolates,"# [Buy Two Chocolates][title]
+",96,0.038410219053427376
+46,46,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2706-buy-two-chocolates,"# [Buy Two Chocolates][title]
 
 ## Description
 
@@ -3728,8 +3728,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 2003/2003 cases passed (41 ms)
   ✔ Your runtime beats 85.48 % of python submissions
-"
-47,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2706-buy-two-chocolates,"# [Buy Two Chocolates][title]
+",238,0.02590806744679684
+47,47,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2706-buy-two-chocolates,"# [Buy Two Chocolates][title]
 
 ## Description
 
@@ -3821,8 +3821,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 2003/2003 cases passed (57 ms)
   ✔ Your runtime beats 14.29 % of python submissions
-"
-48,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2697-lexicographically-smallest-palindrome,"# [Lexicographically Smallest Palindrome][title]
+",238,0.45682526736700235
+48,48,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2697-lexicographically-smallest-palindrome,"# [Lexicographically Smallest Palindrome][title]
 
 ## Description
 
@@ -3926,8 +3926,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 4519/4519 cases passed (119 ms)
   ✔ Your runtime beats 75.11 % of python submissions
-"
-49,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2697-lexicographically-smallest-palindrome,"# [Lexicographically Smallest Palindrome][title]
+",249,0.029748169772596245
+49,49,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2697-lexicographically-smallest-palindrome,"# [Lexicographically Smallest Palindrome][title]
 
 ## Description
 
@@ -4004,8 +4004,8 @@ class Solution(object):
   ✘ testcase: '""egcfe""'
   ✘ answer: 
   ✘ stdout: '""egcfe""'
-"
-50,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2697-lexicographically-smallest-palindrome,"# [Lexicographically Smallest Palindrome][title]
+",97,0.12352919578552247
+50,50,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2697-lexicographically-smallest-palindrome,"# [Lexicographically Smallest Palindrome][title]
 
 ## Description
 
@@ -4090,8 +4090,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 4519/4519 cases passed (84 ms)
   ✔ Your runtime beats 94.32 % of python submissions
-"
-51,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2697-lexicographically-smallest-palindrome,"# [Lexicographically Smallest Palindrome][title]
+",117,0.12186022293873323
+51,51,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2697-lexicographically-smallest-palindrome,"# [Lexicographically Smallest Palindrome][title]
 
 ## Description
 
@@ -4196,8 +4196,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '""egcfe""'
   ✘ answer: 
   ✘ stdout: '""egafe""'
-"
-52,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2696-minimum-string-length-after-removing-substrings,"# [Minimum String Length After Removing Substrings][title]
+",363,0.026918667407075235
+52,52,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2696-minimum-string-length-after-removing-substrings,"# [Minimum String Length After Removing Substrings][title]
 
 ## Description
 
@@ -4270,8 +4270,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 1541/1541 cases passed (23 ms)
   ✔ Your runtime beats 92.01 % of python submissions
-"
-53,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2696-minimum-string-length-after-removing-substrings,"# [Minimum String Length After Removing Substrings][title]
+",94,0.11175238325240765
+53,53,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2696-minimum-string-length-after-removing-substrings,"# [Minimum String Length After Removing Substrings][title]
 
 ## Description
 
@@ -4348,8 +4348,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '""ABFCACDB""'
   ✘ answer: 
   ✘ stdout: '8'
-"
-54,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2696-minimum-string-length-after-removing-substrings,"# [Minimum String Length After Removing Substrings][title]
+",99,0.018786196756844568
+54,54,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2696-minimum-string-length-after-removing-substrings,"# [Minimum String Length After Removing Substrings][title]
 
 ## Description
 
@@ -4415,8 +4415,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 1541/1541 cases passed (31 ms)
   ✔ Your runtime beats 73.26 % of python submissions
-"
-55,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2696-minimum-string-length-after-removing-substrings,"# [Minimum String Length After Removing Substrings][title]
+",95,0.042275491513704
+55,55,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2696-minimum-string-length-after-removing-substrings,"# [Minimum String Length After Removing Substrings][title]
 
 ## Description
 
@@ -4493,8 +4493,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '""ABFCACDB""'
   ✘ answer: 
   ✘ stdout: '8'
-"
-56,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2682-find-the-losers-of-the-circular-game,"# [Find the Losers of the Circular Game][title]
+",99,0.029240025414360896
+56,56,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2682-find-the-losers-of-the-circular-game,"# [Find the Losers of the Circular Game][title]
 
 ## Description
 
@@ -4579,8 +4579,8 @@ class Solution(object):
   ✘ testcase: '2\n1'
   ✘ answer: 
   ✘ stdout: '[1]'
-"
-57,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2682-find-the-losers-of-the-circular-game,"# [Find the Losers of the Circular Game][title]
+",127,0.03653666541332335
+57,57,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2682-find-the-losers-of-the-circular-game,"# [Find the Losers of the Circular Game][title]
 
 ## Description
 
@@ -4689,8 +4689,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '5\n2'
   ✘ answer: 
   ✘ stdout: '[]'
-"
-58,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2682-find-the-losers-of-the-circular-game,"# [Find the Losers of the Circular Game][title]
+",310,0.012078608236005229
+58,58,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2682-find-the-losers-of-the-circular-game,"# [Find the Losers of the Circular Game][title]
 
 ## Description
 
@@ -4806,8 +4806,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '5\n2'
   ✘ answer: 
   ✘ stdout: '[]'
-"
-59,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2682-find-the-losers-of-the-circular-game,"# [Find the Losers of the Circular Game][title]
+",277,0.026038332536332445
+59,59,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2682-find-the-losers-of-the-circular-game,"# [Find the Losers of the Circular Game][title]
 
 ## Description
 
@@ -4899,8 +4899,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '5\n2'
   ✘ answer: 
   ✘ stdout: '[1,3,4]'
-"
-60,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2678-number-of-senior-citizens,"# [Number of Senior Citizens][title]
+",133,0.12702824477862595
+60,60,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2678-number-of-senior-citizens,"# [Number of Senior Citizens][title]
 
 ## Description
 
@@ -4976,8 +4976,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 303/303 cases passed (27 ms)
   ✔ Your runtime beats 71.53 % of python submissions
-"
-61,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2678-number-of-senior-citizens,"# [Number of Senior Citizens][title]
+",74,0.020410115654404096
+61,61,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2678-number-of-senior-citizens,"# [Number of Senior Citizens][title]
 
 ## Description
 
@@ -5044,8 +5044,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 303/303 cases passed (26 ms)
   ✔ Your runtime beats 74.26 % of python submissions
-"
-62,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2678-number-of-senior-citizens,"# [Number of Senior Citizens][title]
+",69,0.14417300708052042
+62,62,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2678-number-of-senior-citizens,"# [Number of Senior Citizens][title]
 
 ## Description
 
@@ -5120,8 +5120,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 303/303 cases passed (23 ms)
   ✔ Your runtime beats 86.79 % of python submissions
-"
-63,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2678-number-of-senior-citizens,"# [Number of Senior Citizens][title]
+",70,0.09804817267826625
+63,63,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2678-number-of-senior-citizens,"# [Number of Senior Citizens][title]
 
 ## Description
 
@@ -5193,8 +5193,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 303/303 cases passed (24 ms)
   ✔ Your runtime beats 81.32 % of python submissions
-"
-64,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2670-find-the-distinct-difference-array,"# [Find the Distinct Difference Array][title]
+",56,0.02914483206612723
+64,64,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2670-find-the-distinct-difference-array,"# [Find the Distinct Difference Array][title]
 
 ## Description
 
@@ -5283,8 +5283,8 @@ Line 48 in <module> (Solution.py)
   ✘ testcase: '[3,2,3,4,2]'
   ✘ answer: 
   ✘ stdout: ''
-"
-65,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2670-find-the-distinct-difference-array,"# [Find the Distinct Difference Array][title]
+",92,0.035091939179793655
+65,65,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2670-find-the-distinct-difference-array,"# [Find the Distinct Difference Array][title]
 
 ## Description
 
@@ -5375,8 +5375,8 @@ Line 50 in <module> (Solution.py)
   ✘ testcase: '[3,2,3,4,2]'
   ✘ answer: 
   ✘ stdout: ''
-"
-66,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2670-find-the-distinct-difference-array,"# [Find the Distinct Difference Array][title]
+",130,0.11834914684295654
+66,66,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2670-find-the-distinct-difference-array,"# [Find the Distinct Difference Array][title]
 
 ## Description
 
@@ -5466,8 +5466,8 @@ Line 46 in <module> (Solution.py)
   ✘ testcase: '[3,2,3,4,2]'
   ✘ answer: 
   ✘ stdout: ''
-"
-67,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2670-find-the-distinct-difference-array,"# [Find the Distinct Difference Array][title]
+",92,0.037975407165029784
+67,67,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2670-find-the-distinct-difference-array,"# [Find the Distinct Difference Array][title]
 
 ## Description
 
@@ -5555,8 +5555,8 @@ Line 44 in <module> (Solution.py)
   ✘ testcase: '[3,2,3,4,2]'
   ✘ answer: 
   ✘ stdout: ''
-"
-68,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2660-determine-the-winner-of-a-bowling-game,"# [Determine the Winner of a Bowling Game][title]
+",85,0.015756870718563305
+68,68,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2660-determine-the-winner-of-a-bowling-game,"# [Determine the Winner of a Bowling Game][title]
 
 ## Description
 
@@ -5657,8 +5657,8 @@ Line 53 in <module> (Solution.py)
   ✘ testcase: '[4,10,7,9]\n[6,5,2,3]'
   ✘ answer: 
   ✘ stdout: ''
-"
-69,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2660-determine-the-winner-of-a-bowling-game,"# [Determine the Winner of a Bowling Game][title]
+",132,0.14388707731709335
+69,69,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2660-determine-the-winner-of-a-bowling-game,"# [Determine the Winner of a Bowling Game][title]
 
 ## Description
 
@@ -5758,8 +5758,8 @@ Line 52 in <module> (Solution.py)
   ✘ testcase: '[4,10,7,9]\n[6,5,2,3]'
   ✘ answer: 
   ✘ stdout: ''
-"
-70,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2660-determine-the-winner-of-a-bowling-game,"# [Determine the Winner of a Bowling Game][title]
+",171,0.09695512230633295
+70,70,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2660-determine-the-winner-of-a-bowling-game,"# [Determine the Winner of a Bowling Game][title]
 
 ## Description
 
@@ -5862,8 +5862,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '[5,6,1,10]\n[5,1,10,5]'
   ✘ answer: 
   ✘ stdout: '1'
-"
-71,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2660-determine-the-winner-of-a-bowling-game,"# [Determine the Winner of a Bowling Game][title]
+",205,0.02595585962621177
+71,71,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2660-determine-the-winner-of-a-bowling-game,"# [Determine the Winner of a Bowling Game][title]
 
 ## Description
 
@@ -5972,8 +5972,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '[2,8,2,10,6]\n[10,7,4,5,9]'
   ✘ answer: 
   ✘ stdout: '1'
-"
-72,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2656-maximum-sum-with-exactly-k-elements,"# [Maximum Sum With Exactly K Elements ][title]
+",345,0.02701841229977815
+72,72,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2656-maximum-sum-with-exactly-k-elements,"# [Maximum Sum With Exactly K Elements ][title]
 
 ## Description
 
@@ -6054,8 +6054,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '[1,2,3,4,5]\n3'
   ✘ answer: 
   ✘ stdout: '13'
-"
-73,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2656-maximum-sum-with-exactly-k-elements,"# [Maximum Sum With Exactly K Elements ][title]
+",97,0.02964371258450537
+73,73,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2656-maximum-sum-with-exactly-k-elements,"# [Maximum Sum With Exactly K Elements ][title]
 
 ## Description
 
@@ -6134,8 +6134,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 3004/3004 cases passed (163 ms)
   ✔ Your runtime beats 29.06 % of python submissions
-"
-74,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2656-maximum-sum-with-exactly-k-elements,"# [Maximum Sum With Exactly K Elements ][title]
+",88,0.12041928551413796
+74,74,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2656-maximum-sum-with-exactly-k-elements,"# [Maximum Sum With Exactly K Elements ][title]
 
 ## Description
 
@@ -6213,8 +6213,8 @@ Line 2  (Solution.py)
   ✘ testcase: '[1,2,3,4,5]\n3'
   ✘ answer: 
   ✘ stdout: ''
-"
-75,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2656-maximum-sum-with-exactly-k-elements,"# [Maximum Sum With Exactly K Elements ][title]
+",51,0.10476494302936629
+75,75,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2656-maximum-sum-with-exactly-k-elements,"# [Maximum Sum With Exactly K Elements ][title]
 
 ## Description
 
@@ -6307,8 +6307,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '[1,2,3,4,5]\n3'
   ✘ answer: 
   ✘ stdout: '14'
-"
-76,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2652-sum-multiples,"# [Sum Multiples][title]
+",184,0.027385453815045563
+76,76,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2652-sum-multiples,"# [Sum Multiples][title]
 
 ## Description
 
@@ -6376,8 +6376,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 1000/1000 cases passed (47 ms)
   ✔ Your runtime beats 91.24 % of python submissions
-"
-77,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2652-sum-multiples,"# [Sum Multiples][title]
+",88,0.5131556283343922
+77,77,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2652-sum-multiples,"# [Sum Multiples][title]
 
 ## Description
 
@@ -6432,8 +6432,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 1000/1000 cases passed (54 ms)
   ✔ Your runtime beats 90.76 % of python submissions
-"
-78,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2652-sum-multiples,"# [Sum Multiples][title]
+",72,0.06393931309382121
+78,78,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2652-sum-multiples,"# [Sum Multiples][title]
 
 ## Description
 
@@ -6501,8 +6501,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 1000/1000 cases passed (61 ms)
   ✔ Your runtime beats 87.87 % of python submissions
-"
-79,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2652-sum-multiples,"# [Sum Multiples][title]
+",88,0.029940152710134334
+79,79,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2652-sum-multiples,"# [Sum Multiples][title]
 
 ## Description
 
@@ -6566,8 +6566,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 1000/1000 cases passed (62 ms)
   ✔ Your runtime beats 87.15 % of python submissions
-"
-80,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2651-calculate-delayed-arrival-time,"# [Calculate Delayed Arrival Time][title]
+",75,0.12591673533121744
+80,80,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2651-calculate-delayed-arrival-time,"# [Calculate Delayed Arrival Time][title]
 
 ## Description
 
@@ -6631,8 +6631,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 556/556 cases passed (11 ms)
   ✔ Your runtime beats 92 % of python submissions
-"
-81,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2651-calculate-delayed-arrival-time,"# [Calculate Delayed Arrival Time][title]
+",116,0.013395194349617794
+81,81,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2651-calculate-delayed-arrival-time,"# [Calculate Delayed Arrival Time][title]
 
 ## Description
 
@@ -6698,8 +6698,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 556/556 cases passed (20 ms)
   ✔ Your runtime beats 40 % of python submissions
-"
-82,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2651-calculate-delayed-arrival-time,"# [Calculate Delayed Arrival Time][title]
+",62,0.02986666464036511
+82,82,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2651-calculate-delayed-arrival-time,"# [Calculate Delayed Arrival Time][title]
 
 ## Description
 
@@ -6765,8 +6765,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 556/556 cases passed (18 ms)
   ✔ Your runtime beats 52.67 % of python submissions
-"
-83,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2651-calculate-delayed-arrival-time,"# [Calculate Delayed Arrival Time][title]
+",62,0.17478026497748592
+83,83,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2651-calculate-delayed-arrival-time,"# [Calculate Delayed Arrival Time][title]
 
 ## Description
 
@@ -6823,8 +6823,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 556/556 cases passed (13 ms)
   ✔ Your runtime beats 76.33 % of python submissions
-"
-84,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2644-find-the-maximum-divisibility-score,"# [Find the Maximum Divisibility Score][title]
+",57,0.17540219792148523
+84,84,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2644-find-the-maximum-divisibility-score,"# [Find the Maximum Divisibility Score][title]
 
 ## Description
 
@@ -6904,8 +6904,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 155/155 cases passed (4142 ms)
   ✔ Your runtime beats 89.06 % of python submissions
-"
-85,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2644-find-the-maximum-divisibility-score,"# [Find the Maximum Divisibility Score][title]
+",143,0.02595723258865463
+85,85,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2644-find-the-maximum-divisibility-score,"# [Find the Maximum Divisibility Score][title]
 
 ## Description
 
@@ -6982,8 +6982,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 155/155 cases passed (3190 ms)
   ✔ Your runtime beats 89.06 % of python submissions
-"
-86,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2644-find-the-maximum-divisibility-score,"# [Find the Maximum Divisibility Score][title]
+",131,0.026786935238437802
+86,86,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2644-find-the-maximum-divisibility-score,"# [Find the Maximum Divisibility Score][title]
 
 ## Description
 
@@ -7060,8 +7060,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 155/155 cases passed (3372 ms)
   ✔ Your runtime beats 89.06 % of python submissions
-"
-87,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2644-find-the-maximum-divisibility-score,"# [Find the Maximum Divisibility Score][title]
+",126,0.11455249975598047
+87,87,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2644-find-the-maximum-divisibility-score,"# [Find the Maximum Divisibility Score][title]
 
 ## Description
 
@@ -7138,8 +7138,8 @@ class Solution(object):
   ✘ testcase: '[12]\n[10,16]'
   ✘ answer: 
   ✘ stdout: '0'
-"
-88,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2643-row-with-maximum-ones,"# [Row With Maximum Ones][title]
+",136,0.041123826714123006
+88,88,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2643-row-with-maximum-ones,"# [Row With Maximum Ones][title]
 
 ## Description
 
@@ -7219,8 +7219,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '[[0],[0]]'
   ✘ answer: 
   ✘ stdout: '[-1,0]'
-"
-89,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2643-row-with-maximum-ones,"# [Row With Maximum Ones][title]
+",99,0.016443912429038924
+89,89,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2643-row-with-maximum-ones,"# [Row With Maximum Ones][title]
 
 ## Description
 
@@ -7303,8 +7303,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 1049/1049 cases passed (773 ms)
   ✔ Your runtime beats 94.77 % of python submissions
-"
-90,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2643-row-with-maximum-ones,"# [Row With Maximum Ones][title]
+",125,0.026334655761718753
+90,90,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2643-row-with-maximum-ones,"# [Row With Maximum Ones][title]
 
 ## Description
 
@@ -7379,8 +7379,8 @@ Line 8  (Solution.py)
   ✘ testcase: '[[0,1],[1,0]]'
   ✘ answer: 
   ✘ stdout: ''
-"
-91,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2643-row-with-maximum-ones,"# [Row With Maximum Ones][title]
+",57,0.06336166984156559
+91,91,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2643-row-with-maximum-ones,"# [Row With Maximum Ones][title]
 
 ## Description
 
@@ -7449,8 +7449,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 1049/1049 cases passed (740 ms)
   ✔ Your runtime beats 94.77 % of python submissions
-"
-92,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2639-find-the-width-of-columns-of-a-grid,"# [Find the Width of Columns of a Grid][title]
+",96,0.09304542591174443
+92,92,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2639-find-the-width-of-columns-of-a-grid,"# [Find the Width of Columns of a Grid][title]
 
 ## Description
 
@@ -7524,8 +7524,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 49/49 cases passed (83 ms)
   ✔ Your runtime beats 94.64 % of python submissions
-"
-93,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2639-find-the-width-of-columns-of-a-grid,"# [Find the Width of Columns of a Grid][title]
+",89,0.014288851384366497
+93,93,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2639-find-the-width-of-columns-of-a-grid,"# [Find the Width of Columns of a Grid][title]
 
 ## Description
 
@@ -7599,8 +7599,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 49/49 cases passed (73 ms)
   ✔ Your runtime beats 94.64 % of python submissions
-"
-94,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2639-find-the-width-of-columns-of-a-grid,"# [Find the Width of Columns of a Grid][title]
+",105,0.11583082108270554
+94,94,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2639-find-the-width-of-columns-of-a-grid,"# [Find the Width of Columns of a Grid][title]
 
 ## Description
 
@@ -7681,8 +7681,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 49/49 cases passed (84 ms)
   ✔ Your runtime beats 94.64 % of python submissions
-"
-95,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2639-find-the-width-of-columns-of-a-grid,"# [Find the Width of Columns of a Grid][title]
+",153,0.025838286268944837
+95,95,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2639-find-the-width-of-columns-of-a-grid,"# [Find the Width of Columns of a Grid][title]
 
 ## Description
 
@@ -7747,8 +7747,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 49/49 cases passed (81 ms)
   ✔ Your runtime beats 94.64 % of python submissions
-"
-96,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2614-prime-in-diagonal,"# [Prime In Diagonal][title]
+",100,0.11036204338073731
+96,96,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2614-prime-in-diagonal,"# [Prime In Diagonal][title]
 
 ## Description
 
@@ -7827,8 +7827,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 82/82 cases passed (659 ms)
   ✔ Your runtime beats 91.11 % of python submissions
-"
-97,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2614-prime-in-diagonal,"# [Prime In Diagonal][title]
+",165,0.03644248933503122
+97,97,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2614-prime-in-diagonal,"# [Prime In Diagonal][title]
 
 ## Description
 
@@ -7919,8 +7919,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 82/82 cases passed (660 ms)
   ✔ Your runtime beats 90 % of python submissions
-"
-98,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2614-prime-in-diagonal,"# [Prime In Diagonal][title]
+",181,0.013493466772427217
+98,98,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2614-prime-in-diagonal,"# [Prime In Diagonal][title]
 
 ## Description
 
@@ -8008,8 +8008,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 82/82 cases passed (650 ms)
   ✔ Your runtime beats 92.22 % of python submissions
-"
-99,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2614-prime-in-diagonal,"# [Prime In Diagonal][title]
+",165,0.11560649438337846
+99,99,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2614-prime-in-diagonal,"# [Prime In Diagonal][title]
 
 ## Description
 
@@ -8100,8 +8100,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 82/82 cases passed (642 ms)
   ✔ Your runtime beats 93.33 % of python submissions
-"
-100,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2609-find-the-longest-balanced-substring-of-a-binary-string,"# [Find the Longest Balanced Substring of a Binary String][title]
+",167,0.02612058987874471
+100,100,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2609-find-the-longest-balanced-substring-of-a-binary-string,"# [Find the Longest Balanced Substring of a Binary String][title]
 
 ## Description
 
@@ -8184,8 +8184,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '""01000111""'
   ✘ answer: 
   ✘ stdout: '8'
-"
-101,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2609-find-the-longest-balanced-substring-of-a-binary-string,"# [Find the Longest Balanced Substring of a Binary String][title]
+",130,0.10615616945120004
+101,101,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2609-find-the-longest-balanced-substring-of-a-binary-string,"# [Find the Longest Balanced Substring of a Binary String][title]
 
 ## Description
 
@@ -8267,8 +8267,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '""01000111""'
   ✘ answer: 
   ✘ stdout: '8'
-"
-102,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2609-find-the-longest-balanced-substring-of-a-binary-string,"# [Find the Longest Balanced Substring of a Binary String][title]
+",121,0.02535733900779535
+102,102,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2609-find-the-longest-balanced-substring-of-a-binary-string,"# [Find the Longest Balanced Substring of a Binary String][title]
 
 ## Description
 
@@ -8353,8 +8353,8 @@ class Solution(object):
   ✘ testcase: '""01000111""'
   ✘ answer: 
   ✘ stdout: '8'
-"
-103,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2609-find-the-longest-balanced-substring-of-a-binary-string,"# [Find the Longest Balanced Substring of a Binary String][title]
+",187,0.040437874309519395
+103,103,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2609-find-the-longest-balanced-substring-of-a-binary-string,"# [Find the Longest Balanced Substring of a Binary String][title]
 
 ## Description
 
@@ -8449,8 +8449,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '""01000111""'
   ✘ answer: 
   ✘ stdout: '8'
-"
-104,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2605-form-smallest-number-from-two-digit-arrays,"# [Form Smallest Number From Two Digit Arrays][title]
+",230,0.01250632327535878
+104,104,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2605-form-smallest-number-from-two-digit-arrays,"# [Form Smallest Number From Two Digit Arrays][title]
 
 ## Description
 
@@ -8517,8 +8517,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 388/388 cases passed (11 ms)
   ✔ Your runtime beats 92.86 % of python submissions
-"
-105,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2605-form-smallest-number-from-two-digit-arrays,"# [Form Smallest Number From Two Digit Arrays][title]
+",103,0.10954947841977611
+105,105,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2605-form-smallest-number-from-two-digit-arrays,"# [Form Smallest Number From Two Digit Arrays][title]
 
 ## Description
 
@@ -8584,8 +8584,8 @@ class Solution(object):
   ✘ testcase: '[3,5,2,6]\n[3,1,7]'
   ✘ answer: 
   ✘ stdout: '12'
-"
-106,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2605-form-smallest-number-from-two-digit-arrays,"# [Form Smallest Number From Two Digit Arrays][title]
+",135,0.02827339348969636
+106,106,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2605-form-smallest-number-from-two-digit-arrays,"# [Form Smallest Number From Two Digit Arrays][title]
 
 ## Description
 
@@ -8658,8 +8658,8 @@ Line 2  (Solution.py)
   ✘ testcase: '[4,1,3]\n[5,7]'
   ✘ answer: 
   ✘ stdout: ''
-"
-107,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2605-form-smallest-number-from-two-digit-arrays,"# [Form Smallest Number From Two Digit Arrays][title]
+",107,0.049807015980515526
+107,107,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2605-form-smallest-number-from-two-digit-arrays,"# [Form Smallest Number From Two Digit Arrays][title]
 
 ## Description
 
@@ -8764,8 +8764,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '[4,1,3]\n[5,7]'
   ✘ answer: 
   ✘ stdout: '1'
-"
-108,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2600-k-items-with-the-maximum-sum,"# [K Items With the Maximum Sum][title]
+",405,0.02533076604207357
+108,108,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2600-k-items-with-the-maximum-sum,"# [K Items With the Maximum Sum][title]
 
 ## Description
 
@@ -8847,8 +8847,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 1310/1310 cases passed (16 ms)
   ✔ Your runtime beats 86.96 % of python submissions
-"
-109,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2600-k-items-with-the-maximum-sum,"# [K Items With the Maximum Sum][title]
+",153,0.10792390349643682
+109,109,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2600-k-items-with-the-maximum-sum,"# [K Items With the Maximum Sum][title]
 
 ## Description
 
@@ -8934,8 +8934,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 1310/1310 cases passed (23 ms)
   ✔ Your runtime beats 56.52 % of python submissions
-"
-110,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2600-k-items-with-the-maximum-sum,"# [K Items With the Maximum Sum][title]
+",270,0.03311613842293068
+110,110,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2600-k-items-with-the-maximum-sum,"# [K Items With the Maximum Sum][title]
 
 ## Description
 
@@ -9031,8 +9031,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 1310/1310 cases passed (22 ms)
   ✔ Your runtime beats 58.7 % of python submissions
-"
-111,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2600-k-items-with-the-maximum-sum,"# [K Items With the Maximum Sum][title]
+",262,0.026608149513943503
+111,111,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2600-k-items-with-the-maximum-sum,"# [K Items With the Maximum Sum][title]
 
 ## Description
 
@@ -9130,8 +9130,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 1310/1310 cases passed (24 ms)
   ✔ Your runtime beats 51.09 % of python submissions
-"
-112,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2595-number-of-even-and-odd-bits,"# [Number of Even and Odd Bits][title]
+",211,0.025964694000533407
+112,112,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2595-number-of-even-and-odd-bits,"# [Number of Even and Odd Bits][title]
 
 ## Description
 
@@ -9218,8 +9218,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '2'
   ✘ answer: 
   ✘ stdout: '[1,0]'
-"
-113,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2595-number-of-even-and-odd-bits,"# [Number of Even and Odd Bits][title]
+",181,0.024121401718308254
+113,113,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2595-number-of-even-and-odd-bits,"# [Number of Even and Odd Bits][title]
 
 ## Description
 
@@ -9289,8 +9289,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '2'
   ✘ answer: 
   ✘ stdout: '[1,0]'
-"
-114,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2595-number-of-even-and-odd-bits,"# [Number of Even and Odd Bits][title]
+",110,0.1111805417320945
+114,114,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2595-number-of-even-and-odd-bits,"# [Number of Even and Odd Bits][title]
 
 ## Description
 
@@ -9372,8 +9372,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '2'
   ✘ answer: 
   ✘ stdout: '[1,0]'
-"
-115,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2595-number-of-even-and-odd-bits,"# [Number of Even and Odd Bits][title]
+",167,0.027802822832575815
+115,115,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2595-number-of-even-and-odd-bits,"# [Number of Even and Odd Bits][title]
 
 ## Description
 
@@ -9444,8 +9444,8 @@ Line 2  (Solution.py)
   ✘ testcase: '17'
   ✘ answer: 
   ✘ stdout: ''
-"
-116,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2591-distribute-money-to-maximum-children,"# [Distribute Money to Maximum Children][title]
+",62,0.06223755882632349
+116,116,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2591-distribute-money-to-maximum-children,"# [Distribute Money to Maximum Children][title]
 
 ## Description
 
@@ -9542,8 +9542,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '20\n3'
   ✘ answer: 
   ✘ stdout: '0'
-"
-117,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2591-distribute-money-to-maximum-children,"# [Distribute Money to Maximum Children][title]
+",282,0.011844454927647368
+117,117,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2591-distribute-money-to-maximum-children,"# [Distribute Money to Maximum Children][title]
 
 ## Description
 
@@ -9618,8 +9618,8 @@ class Solution(object):
   ✘ testcase: '20\n3'
   ✘ answer: 
   ✘ stdout: '2'
-"
-118,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2591-distribute-money-to-maximum-children,"# [Distribute Money to Maximum Children][title]
+",100,0.03932893037796021
+118,118,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2591-distribute-money-to-maximum-children,"# [Distribute Money to Maximum Children][title]
 
 ## Description
 
@@ -9708,8 +9708,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '20\n3'
   ✘ answer: 
   ✘ stdout: '-1'
-"
-119,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2591-distribute-money-to-maximum-children,"# [Distribute Money to Maximum Children][title]
+",371,0.13963379821366056
+119,119,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2591-distribute-money-to-maximum-children,"# [Distribute Money to Maximum Children][title]
 
 ## Description
 
@@ -9797,8 +9797,8 @@ Line 1  (Solution.py)
   ✘ testcase: '20\n3'
   ✘ answer: 
   ✘ stdout: ''
-"
-120,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2586-count-the-number-of-vowel-strings-in-range,"# [Count the Number of Vowel Strings in Range][title]
+",161,0.025286381289085245
+120,120,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2586-count-the-number-of-vowel-strings-in-range,"# [Count the Number of Vowel Strings in Range][title]
 
 ## Description
 
@@ -9875,8 +9875,8 @@ Line 46 in <module> (Solution.py)
   ✘ testcase: '[""are"",""amy"",""u""]\n0\n2'
   ✘ answer: 
   ✘ stdout: ''
-"
-121,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2586-count-the-number-of-vowel-strings-in-range,"# [Count the Number of Vowel Strings in Range][title]
+",74,0.05446844487576871
+121,121,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2586-count-the-number-of-vowel-strings-in-range,"# [Count the Number of Vowel Strings in Range][title]
 
 ## Description
 
@@ -9944,8 +9944,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 1053/1053 cases passed (36 ms)
   ✔ Your runtime beats 92 % of python submissions
-"
-122,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2586-count-the-number-of-vowel-strings-in-range,"# [Count the Number of Vowel Strings in Range][title]
+",107,0.01572472804060606
+122,122,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2586-count-the-number-of-vowel-strings-in-range,"# [Count the Number of Vowel Strings in Range][title]
 
 ## Description
 
@@ -10022,8 +10022,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 1053/1053 cases passed (35 ms)
   ✔ Your runtime beats 94.22 % of python submissions
-"
-123,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2586-count-the-number-of-vowel-strings-in-range,"# [Count the Number of Vowel Strings in Range][title]
+",105,0.10206117630004885
+123,123,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2586-count-the-number-of-vowel-strings-in-range,"# [Count the Number of Vowel Strings in Range][title]
 
 ## Description
 
@@ -10100,8 +10100,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 1053/1053 cases passed (43 ms)
   ✔ Your runtime beats 85.78 % of python submissions
-"
-124,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2582-pass-the-pillow,"# [Pass the Pillow][title]
+",115,0.02673043168109396
+124,124,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2582-pass-the-pillow,"# [Pass the Pillow][title]
 
 ## Description
 
@@ -10187,8 +10187,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 68/68 cases passed (17 ms)
   ✔ Your runtime beats 50.55 % of python submissions
-"
-125,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2582-pass-the-pillow,"# [Pass the Pillow][title]
+",165,0.027212778727213543
+125,125,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2582-pass-the-pillow,"# [Pass the Pillow][title]
 
 ## Description
 
@@ -10255,8 +10255,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 68/68 cases passed (16 ms)
   ✔ Your runtime beats 59.34 % of python submissions
-"
-126,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2582-pass-the-pillow,"# [Pass the Pillow][title]
+",96,0.12245682130257286
+126,126,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2582-pass-the-pillow,"# [Pass the Pillow][title]
 
 ## Description
 
@@ -10343,8 +10343,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '4\n5'
   ✘ answer: 
   ✘ stdout: '-4'
-"
-127,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2582-pass-the-pillow,"# [Pass the Pillow][title]
+",163,0.02511891850664572
+127,127,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2582-pass-the-pillow,"# [Pass the Pillow][title]
 
 ## Description
 
@@ -10429,8 +10429,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '4\n5'
   ✘ answer: 
   ✘ stdout: '3'
-"
-128,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2578-split-with-minimum-sum,"# [Split With Minimum Sum][title]
+",198,0.1338447729746501
+128,128,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2578-split-with-minimum-sum,"# [Split With Minimum Sum][title]
 
 ## Description
 
@@ -10518,8 +10518,8 @@ class Solution(object):
   ✘ testcase: '4325'
   ✘ answer: 
   ✘ stdout: '4325'
-"
-129,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2578-split-with-minimum-sum,"# [Split With Minimum Sum][title]
+",240,0.0264568030834198
+129,129,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2578-split-with-minimum-sum,"# [Split With Minimum Sum][title]
 
 ## Description
 
@@ -10595,8 +10595,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 140/140 cases passed (16 ms)
   ✔ Your runtime beats 56.82 % of python submissions
-"
-130,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2578-split-with-minimum-sum,"# [Split With Minimum Sum][title]
+",96,0.1065773790081342
+130,130,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2578-split-with-minimum-sum,"# [Split With Minimum Sum][title]
 
 ## Description
 
@@ -10683,8 +10683,8 @@ Line 2  (Solution.py)
   ✘ testcase: '4325'
   ✘ answer: 
   ✘ stdout: ''
-"
-131,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2578-split-with-minimum-sum,"# [Split With Minimum Sum][title]
+",160,0.03756299614906311
+131,131,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2578-split-with-minimum-sum,"# [Split With Minimum Sum][title]
 
 ## Description
 
@@ -10793,8 +10793,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '4325'
   ✘ answer: 
   ✘ stdout: '68'
-"
-132,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2574-left-and-right-sum-differences,"# [Left and Right Sum Differences][title]
+",350,0.025044007982526508
+132,132,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2574-left-and-right-sum-differences,"# [Left and Right Sum Differences][title]
 
 ## Description
 
@@ -10868,8 +10868,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 53/53 cases passed (40 ms)
   ✔ Your runtime beats 94.79 % of python submissions
-"
-133,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2574-left-and-right-sum-differences,"# [Left and Right Sum Differences][title]
+",158,0.12709697288802912
+133,133,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2574-left-and-right-sum-differences,"# [Left and Right Sum Differences][title]
 
 ## Description
 
@@ -10937,8 +10937,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 53/53 cases passed (42 ms)
   ✔ Your runtime beats 94.45 % of python submissions
-"
-134,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2574-left-and-right-sum-differences,"# [Left and Right Sum Differences][title]
+",142,0.02925834017740169
+134,134,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2574-left-and-right-sum-differences,"# [Left and Right Sum Differences][title]
 
 ## Description
 
@@ -11011,8 +11011,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 53/53 cases passed (42 ms)
   ✔ Your runtime beats 94.45 % of python submissions
-"
-135,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2574-left-and-right-sum-differences,"# [Left and Right Sum Differences][title]
+",159,0.12120850880940755
+135,135,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2574-left-and-right-sum-differences,"# [Left and Right Sum Differences][title]
 
 ## Description
 
@@ -11096,8 +11096,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 53/53 cases passed (52 ms)
   ✔ Your runtime beats 81.68 % of python submissions
-"
-136,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2570-merge-two-2d-arrays-by-summing-values,"# [Merge Two 2D Arrays by Summing Values][title]
+",185,0.026305169028204844
+136,136,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2570-merge-two-2d-arrays-by-summing-values,"# [Merge Two 2D Arrays by Summing Values][title]
 
 ## Description
 
@@ -11203,8 +11203,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 39/39 cases passed (36 ms)
   ✔ Your runtime beats 91.89 % of python submissions
-"
-137,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2570-merge-two-2d-arrays-by-summing-values,"# [Merge Two 2D Arrays by Summing Values][title]
+",265,0.025463937363534604
+137,137,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2570-merge-two-2d-arrays-by-summing-values,"# [Merge Two 2D Arrays by Summing Values][title]
 
 ## Description
 
@@ -11300,8 +11300,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 39/39 cases passed (39 ms)
   ✔ Your runtime beats 87.84 % of python submissions
-"
-138,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2570-merge-two-2d-arrays-by-summing-values,"# [Merge Two 2D Arrays by Summing Values][title]
+",222,0.11360665484591648
+138,138,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2570-merge-two-2d-arrays-by-summing-values,"# [Merge Two 2D Arrays by Summing Values][title]
 
 ## Description
 
@@ -11398,8 +11398,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 39/39 cases passed (28 ms)
   ✔ Your runtime beats 94.6 % of python submissions
-"
-139,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2570-merge-two-2d-arrays-by-summing-values,"# [Merge Two 2D Arrays by Summing Values][title]
+",212,0.027404617588475066
+139,139,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2570-merge-two-2d-arrays-by-summing-values,"# [Merge Two 2D Arrays by Summing Values][title]
 
 ## Description
 
@@ -11489,8 +11489,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 39/39 cases passed (31 ms)
   ✔ Your runtime beats 93.24 % of python submissions
-"
-140,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2566-maximum-difference-by-remapping-a-digit,"# [Maximum Difference by Remapping a Digit][title]
+",217,0.0354068674799484
+140,140,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2566-maximum-difference-by-remapping-a-digit,"# [Maximum Difference by Remapping a Digit][title]
 
 ## Description
 
@@ -11583,8 +11583,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '11891'
   ✘ answer: 
   ✘ stdout: '90000'
-"
-141,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2566-maximum-difference-by-remapping-a-digit,"# [Maximum Difference by Remapping a Digit][title]
+",220,0.02499290704727173
+141,141,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2566-maximum-difference-by-remapping-a-digit,"# [Maximum Difference by Remapping a Digit][title]
 
 ## Description
 
@@ -11660,8 +11660,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 214/214 cases passed (19 ms)
   ✔ Your runtime beats 43.48 % of python submissions
-"
-142,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2566-maximum-difference-by-remapping-a-digit,"# [Maximum Difference by Remapping a Digit][title]
+",144,0.11203556425041622
+142,142,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2566-maximum-difference-by-remapping-a-digit,"# [Maximum Difference by Remapping a Digit][title]
 
 ## Description
 
@@ -11755,8 +11755,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '11891'
   ✘ answer: 
   ✘ stdout: '90000'
-"
-143,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2566-maximum-difference-by-remapping-a-digit,"# [Maximum Difference by Remapping a Digit][title]
+",245,0.025779111044747487
+143,143,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2566-maximum-difference-by-remapping-a-digit,"# [Maximum Difference by Remapping a Digit][title]
 
 ## Description
 
@@ -11830,8 +11830,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '11891'
   ✘ answer: 
   ✘ stdout: '88008'
-"
-144,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2562-find-the-array-concatenation-value,"# [Find the Array Concatenation Value][title]
+",102,0.11857892485225902
+144,144,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2562-find-the-array-concatenation-value,"# [Find the Array Concatenation Value][title]
 
 ## Description
 
@@ -11904,8 +11904,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 53/53 cases passed (31 ms)
   ✔ Your runtime beats 92.86 % of python submissions
-"
-145,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2562-find-the-array-concatenation-value,"# [Find the Array Concatenation Value][title]
+",103,76.92091125886417
+145,145,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2562-find-the-array-concatenation-value,"# [Find the Array Concatenation Value][title]
 
 ## Description
 
@@ -11977,8 +11977,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 53/53 cases passed (31 ms)
   ✔ Your runtime beats 92.86 % of python submissions
-"
-146,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2562-find-the-array-concatenation-value,"# [Find the Array Concatenation Value][title]
+",94,0.12489683830991705
+146,146,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2562-find-the-array-concatenation-value,"# [Find the Array Concatenation Value][title]
 
 ## Description
 
@@ -12060,8 +12060,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 53/53 cases passed (40 ms)
   ✔ Your runtime beats 72.45 % of python submissions
-"
-147,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2562-find-the-array-concatenation-value,"# [Find the Array Concatenation Value][title]
+",104,0.10804902819486764
+147,147,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2562-find-the-array-concatenation-value,"# [Find the Array Concatenation Value][title]
 
 ## Description
 
@@ -12142,8 +12142,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 53/53 cases passed (40 ms)
   ✔ Your runtime beats 72.45 % of python submissions
-"
-148,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2558-take-gifts-from-the-richest-pile,"# [Take Gifts From the Richest Pile][title]
+",103,0.02757540721337772
+148,148,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2558-take-gifts-from-the-richest-pile,"# [Take Gifts From the Richest Pile][title]
 
 ## Description
 
@@ -12237,8 +12237,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '[25,64,9,4,100]\n4'
   ✘ answer: 
   ✘ stdout: '166.0'
-"
-149,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2558-take-gifts-from-the-richest-pile,"# [Take Gifts From the Richest Pile][title]
+",226,0.025177754132093583
+149,149,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2558-take-gifts-from-the-richest-pile,"# [Take Gifts From the Richest Pile][title]
 
 ## Description
 
@@ -12323,8 +12323,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '[25,64,9,4,100]\n4'
   ✘ answer: 
   ✘ stdout: '166'
-"
-150,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2558-take-gifts-from-the-richest-pile,"# [Take Gifts From the Richest Pile][title]
+",166,0.027760802981365157
+150,150,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2558-take-gifts-from-the-richest-pile,"# [Take Gifts From the Richest Pile][title]
 
 ## Description
 
@@ -12386,8 +12386,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 102/102 cases passed (71 ms)
   ✔ Your runtime beats 64.2 % of python submissions
-"
-151,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2558-take-gifts-from-the-richest-pile,"# [Take Gifts From the Richest Pile][title]
+",84,0.06358651603971209
+151,151,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2558-take-gifts-from-the-richest-pile,"# [Take Gifts From the Richest Pile][title]
 
 ## Description
 
@@ -12469,8 +12469,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 102/102 cases passed (43 ms)
   ✔ Your runtime beats 87.65 % of python submissions
-"
-152,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2553-separate-the-digits-in-an-array,"# [Separate the Digits in an Array][title]
+",187,0.12199581115641059
+152,152,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2553-separate-the-digits-in-an-array,"# [Separate the Digits in an Array][title]
 
 ## Description
 
@@ -12533,8 +12533,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 52/52 cases passed (52 ms)
   ✔ Your runtime beats 90.98 % of python submissions
-"
-153,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2553-separate-the-digits-in-an-array,"# [Separate the Digits in an Array][title]
+",76,0.016187285122118502
+153,153,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2553-separate-the-digits-in-an-array,"# [Separate the Digits in an Array][title]
 
 ## Description
 
@@ -12607,8 +12607,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 52/52 cases passed (38 ms)
   ✔ Your runtime beats 94.74 % of python submissions
-"
-154,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2553-separate-the-digits-in-an-array,"# [Separate the Digits in an Array][title]
+",83,0.028008578771568208
+154,154,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2553-separate-the-digits-in-an-array,"# [Separate the Digits in an Array][title]
 
 ## Description
 
@@ -12667,8 +12667,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 52/52 cases passed (44 ms)
   ✔ Your runtime beats 94.74 % of python submissions
-"
-155,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2553-separate-the-digits-in-an-array,"# [Separate the Digits in an Array][title]
+",54,0.11965143239056622
+155,155,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2553-separate-the-digits-in-an-array,"# [Separate the Digits in an Array][title]
 
 ## Description
 
@@ -12728,8 +12728,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 52/52 cases passed (57 ms)
   ✔ Your runtime beats 83.46 % of python submissions
-"
-156,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2549-count-distinct-numbers-on-board,"# [Count Distinct Numbers on Board][title]
+",62,0.10734728459388979
+156,156,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2549-count-distinct-numbers-on-board,"# [Count Distinct Numbers on Board][title]
 
 ## Description
 
@@ -12818,8 +12818,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '5'
   ✘ answer: 
   ✘ stdout: ''
-"
-157,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2549-count-distinct-numbers-on-board,"# [Count Distinct Numbers on Board][title]
+",200,0.027937749624252318
+157,157,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2549-count-distinct-numbers-on-board,"# [Count Distinct Numbers on Board][title]
 
 ## Description
 
@@ -12888,8 +12888,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 100/100 cases passed (20 ms)
   ✔ Your runtime beats 32.26 % of python submissions
-"
-158,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2549-count-distinct-numbers-on-board,"# [Count Distinct Numbers on Board][title]
+",48,0.11851036051909129
+158,158,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2549-count-distinct-numbers-on-board,"# [Count Distinct Numbers on Board][title]
 
 ## Description
 
@@ -12966,8 +12966,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 100/100 cases passed (1202 ms)
   ✔ Your runtime beats 0 % of python submissions
-"
-159,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2549-count-distinct-numbers-on-board,"# [Count Distinct Numbers on Board][title]
+",99,0.02679291156807331
+159,159,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2549-count-distinct-numbers-on-board,"# [Count Distinct Numbers on Board][title]
 
 ## Description
 
@@ -13027,8 +13027,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 100/100 cases passed (22 ms)
   ✔ Your runtime beats 27.42 % of python submissions
-"
-160,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2544-alternating-digit-sum,"# [Alternating Digit Sum][title]
+",44,0.12339633161371405
+160,160,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2544-alternating-digit-sum,"# [Alternating Digit Sum][title]
 
 ## Description
 
@@ -13110,8 +13110,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '521'
   ✘ answer: 
   ✘ stdout: '6'
-"
-161,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2544-alternating-digit-sum,"# [Alternating Digit Sum][title]
+",180,0.013375670380062528
+161,161,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2544-alternating-digit-sum,"# [Alternating Digit Sum][title]
 
 ## Description
 
@@ -13204,8 +13204,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '521'
   ✘ answer: 
   ✘ stdout: '6'
-"
-162,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2544-alternating-digit-sum,"# [Alternating Digit Sum][title]
+",186,0.024411296331754293
+162,162,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2544-alternating-digit-sum,"# [Alternating Digit Sum][title]
 
 ## Description
 
@@ -13280,8 +13280,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 118/118 cases passed (10 ms)
   ✔ Your runtime beats 85.09 % of python submissions
-"
-163,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2544-alternating-digit-sum,"# [Alternating Digit Sum][title]
+",85,0.1511018528657801
+163,163,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2544-alternating-digit-sum,"# [Alternating Digit Sum][title]
 
 ## Description
 
@@ -13347,8 +13347,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 118/118 cases passed (22 ms)
   ✔ Your runtime beats 9.94 % of python submissions
-"
-164,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2540-minimum-common-value,"# [Minimum Common Value][title]
+",80,0.04447489082813263
+164,164,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2540-minimum-common-value,"# [Minimum Common Value][title]
 
 ## Description
 
@@ -13422,8 +13422,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 40/40 cases passed (342 ms)
   ✔ Your runtime beats 94.37 % of python submissions
-"
-165,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2540-minimum-common-value,"# [Minimum Common Value][title]
+",122,0.09447418470851712
+165,165,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2540-minimum-common-value,"# [Minimum Common Value][title]
 
 ## Description
 
@@ -13488,8 +13488,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 40/40 cases passed (345 ms)
   ✔ Your runtime beats 94.37 % of python submissions
-"
-166,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2540-minimum-common-value,"# [Minimum Common Value][title]
+",117,0.02593307413606562
+166,166,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2540-minimum-common-value,"# [Minimum Common Value][title]
 
 ## Description
 
@@ -13554,8 +13554,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 40/40 cases passed (345 ms)
   ✔ Your runtime beats 94.37 % of python submissions
-"
-167,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2540-minimum-common-value,"# [Minimum Common Value][title]
+",117,0.12282073599660498
+167,167,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2540-minimum-common-value,"# [Minimum Common Value][title]
 
 ## Description
 
@@ -13630,8 +13630,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 40/40 cases passed (359 ms)
   ✔ Your runtime beats 94.37 % of python submissions
-"
-168,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2535-difference-between-element-sum-and-digit-sum-of-an-array,"# [Difference Between Element Sum and Digit Sum of an Array][title]
+",123,0.02655235538637735
+168,168,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2535-difference-between-element-sum-and-digit-sum-of-an-array,"# [Difference Between Element Sum and Digit Sum of an Array][title]
 
 ## Description
 
@@ -13702,8 +13702,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 142/142 cases passed (149 ms)
   ✔ Your runtime beats 52.13 % of python submissions
-"
-169,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2535-difference-between-element-sum-and-digit-sum-of-an-array,"# [Difference Between Element Sum and Digit Sum of an Array][title]
+",79,0.027458954461013214
+169,169,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2535-difference-between-element-sum-and-digit-sum-of-an-array,"# [Difference Between Element Sum and Digit Sum of an Array][title]
 
 ## Description
 
@@ -13765,8 +13765,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 142/142 cases passed (134 ms)
   ✔ Your runtime beats 59 % of python submissions
-"
-170,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2535-difference-between-element-sum-and-digit-sum-of-an-array,"# [Difference Between Element Sum and Digit Sum of an Array][title]
+",75,0.030900039672851563
+170,170,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2535-difference-between-element-sum-and-digit-sum-of-an-array,"# [Difference Between Element Sum and Digit Sum of an Array][title]
 
 ## Description
 
@@ -13826,8 +13826,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 142/142 cases passed (151 ms)
   ✔ Your runtime beats 51.18 % of python submissions
-"
-171,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2535-difference-between-element-sum-and-digit-sum-of-an-array,"# [Difference Between Element Sum and Digit Sum of an Array][title]
+",68,0.1306743621826172
+171,171,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2535-difference-between-element-sum-and-digit-sum-of-an-array,"# [Difference Between Element Sum and Digit Sum of an Array][title]
 
 ## Description
 
@@ -13887,8 +13887,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 142/142 cases passed (140 ms)
   ✔ Your runtime beats 58.29 % of python submissions
-"
-172,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2529-maximum-count-of-positive-integer-and-negative-integer,"# [Maximum Count of Positive Integer and Negative Integer][title]
+",68,0.0392683323691873
+172,172,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2529-maximum-count-of-positive-integer-and-negative-integer,"# [Maximum Count of Positive Integer and Negative Integer][title]
 
 ## Description
 
@@ -13966,8 +13966,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 164/164 cases passed (88 ms)
   ✔ Your runtime beats 92.9 % of python submissions
-"
-173,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2529-maximum-count-of-positive-integer-and-negative-integer,"# [Maximum Count of Positive Integer and Negative Integer][title]
+",85,0.11782395979937384
+173,173,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2529-maximum-count-of-positive-integer-and-negative-integer,"# [Maximum Count of Positive Integer and Negative Integer][title]
 
 ## Description
 
@@ -14045,8 +14045,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 164/164 cases passed (94 ms)
   ✔ Your runtime beats 87.57 % of python submissions
-"
-174,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2529-maximum-count-of-positive-integer-and-negative-integer,"# [Maximum Count of Positive Integer and Negative Integer][title]
+",85,0.028340805278104893
+174,174,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2529-maximum-count-of-positive-integer-and-negative-integer,"# [Maximum Count of Positive Integer and Negative Integer][title]
 
 ## Description
 
@@ -14115,8 +14115,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 164/164 cases passed (85 ms)
   ✔ Your runtime beats 92.9 % of python submissions
-"
-175,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2529-maximum-count-of-positive-integer-and-negative-integer,"# [Maximum Count of Positive Integer and Negative Integer][title]
+",81,0.04291552378807539
+175,175,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2529-maximum-count-of-positive-integer-and-negative-integer,"# [Maximum Count of Positive Integer and Negative Integer][title]
 
 ## Description
 
@@ -14196,8 +14196,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 164/164 cases passed (80 ms)
   ✔ Your runtime beats 93.2 % of python submissions
-"
-176,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2525-categorize-box-according-to-criteria,"# [Categorize Box According to Criteria][title]
+",85,0.028305931652293486
+176,176,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2525-categorize-box-according-to-criteria,"# [Categorize Box According to Criteria][title]
 
 ## Description
 
@@ -14285,8 +14285,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '1000\n35\n700\n300'
   ✘ answer: 
   ✘ stdout: '""Both""'
-"
-177,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2525-categorize-box-according-to-criteria,"# [Categorize Box According to Criteria][title]
+",140,0.1076471141406468
+177,177,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2525-categorize-box-according-to-criteria,"# [Categorize Box According to Criteria][title]
 
 ## Description
 
@@ -14381,8 +14381,8 @@ Line 66 in <module> (Solution.py)
   ✘ testcase: '1000\n35\n700\n300'
   ✘ answer: 
   ✘ stdout: ''
-"
-178,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2525-categorize-box-according-to-criteria,"# [Categorize Box According to Criteria][title]
+",118,0.05404155739283158
+178,178,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2525-categorize-box-according-to-criteria,"# [Categorize Box According to Criteria][title]
 
 ## Description
 
@@ -14469,8 +14469,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '1000\n35\n700\n300'
   ✘ answer: 
   ✘ stdout: '""Both""'
-"
-179,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2525-categorize-box-according-to-criteria,"# [Categorize Box According to Criteria][title]
+",136,0.027541160583496094
+179,179,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2525-categorize-box-according-to-criteria,"# [Categorize Box According to Criteria][title]
 
 ## Description
 
@@ -14556,8 +14556,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '1000\n35\n700\n300'
   ✘ answer: 
   ✘ stdout: '""Both""'
-"
-180,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2520-count-the-digits-that-divide-a-number,"# [Count the Digits That Divide a Number][title]
+",131,0.027133783311334276
+180,180,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2520-count-the-digits-that-divide-a-number,"# [Count the Digits That Divide a Number][title]
 
 ## Description
 
@@ -14625,8 +14625,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 56/56 cases passed (0 ms)
   ✔ Your runtime beats 94.79 % of python submissions
-"
-181,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2520-count-the-digits-that-divide-a-number,"# [Count the Digits That Divide a Number][title]
+",68,0.12027791668387021
+181,181,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2520-count-the-digits-that-divide-a-number,"# [Count the Digits That Divide a Number][title]
 
 ## Description
 
@@ -14691,8 +14691,8 @@ Line 5  (Solution.py)
   ✘ testcase: '7'
   ✘ answer: 
   ✘ stdout: ''
-"
-182,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2520-count-the-digits-that-divide-a-number,"# [Count the Digits That Divide a Number][title]
+",39,0.04469473545367901
+182,182,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2520-count-the-digits-that-divide-a-number,"# [Count the Digits That Divide a Number][title]
 
 ## Description
 
@@ -14751,8 +14751,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 56/56 cases passed (11 ms)
   ✔ Your runtime beats 86.81 % of python submissions
-"
-183,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2520-count-the-digits-that-divide-a-number,"# [Count the Digits That Divide a Number][title]
+",69,0.018018670704053795
+183,183,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2520-count-the-digits-that-divide-a-number,"# [Count the Digits That Divide a Number][title]
 
 ## Description
 
@@ -14820,8 +14820,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 56/56 cases passed (16 ms)
   ✔ Your runtime beats 54.29 % of python submissions
-"
-184,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2515-shortest-distance-to-target-string-in-a-circular-array,"# [Shortest Distance to Target String in a Circular Array][title]
+",74,0.02797113882528769
+184,184,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2515-shortest-distance-to-target-string-in-a-circular-array,"# [Shortest Distance to Target String in a Circular Array][title]
 
 ## Description
 
@@ -14906,8 +14906,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 164/164 cases passed (28 ms)
   ✔ Your runtime beats 91.89 % of python submissions
-"
-185,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2515-shortest-distance-to-target-string-in-a-circular-array,"# [Shortest Distance to Target String in a Circular Array][title]
+",126,0.02644764809381394
+185,185,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2515-shortest-distance-to-target-string-in-a-circular-array,"# [Shortest Distance to Target String in a Circular Array][title]
 
 ## Description
 
@@ -14994,8 +14994,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 164/164 cases passed (33 ms)
   ✔ Your runtime beats 81.08 % of python submissions
-"
-186,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2515-shortest-distance-to-target-string-in-a-circular-array,"# [Shortest Distance to Target String in a Circular Array][title]
+",139,0.12812167792011508
+186,186,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2515-shortest-distance-to-target-string-in-a-circular-array,"# [Shortest Distance to Target String in a Circular Array][title]
 
 ## Description
 
@@ -15078,8 +15078,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 164/164 cases passed (35 ms)
   ✔ Your runtime beats 78.38 % of python submissions
-"
-187,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2515-shortest-distance-to-target-string-in-a-circular-array,"# [Shortest Distance to Target String in a Circular Array][title]
+",123,0.013175941095119569
+187,187,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2515-shortest-distance-to-target-string-in-a-circular-array,"# [Shortest Distance to Target String in a Circular Array][title]
 
 ## Description
 
@@ -15165,8 +15165,8 @@ class Solution(object):
   '4'
   ✘ answer: 
   ✘ stdout: '-1'
-"
-188,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2511-maximum-enemy-forts-that-can-be-captured,"# [Maximum Enemy Forts That Can Be Captured][title]
+",145,0.04108011475924788
+188,188,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2511-maximum-enemy-forts-that-can-be-captured,"# [Maximum Enemy Forts That Can Be Captured][title]
 
 ## Description
 
@@ -15247,8 +15247,8 @@ class Solution(object):
   ✘ testcase: '[1,0,0,-1,0,0,0,0,1]'
   ✘ answer: 
   ✘ stdout: '6'
-"
-189,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2511-maximum-enemy-forts-that-can-be-captured,"# [Maximum Enemy Forts That Can Be Captured][title]
+",120,0.1335540970166524
+189,189,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2511-maximum-enemy-forts-that-can-be-captured,"# [Maximum Enemy Forts That Can Be Captured][title]
 
 ## Description
 
@@ -15343,8 +15343,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '[1,0,0,-1,0,0,0,0,1]'
   ✘ answer: 
   ✘ stdout: '6'
-"
-190,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2511-maximum-enemy-forts-that-can-be-captured,"# [Maximum Enemy Forts That Can Be Captured][title]
+",360,0.1137943963209788
+190,190,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2511-maximum-enemy-forts-that-can-be-captured,"# [Maximum Enemy Forts That Can Be Captured][title]
 
 ## Description
 
@@ -15453,8 +15453,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '[1,0,0,-1,0,0,0,0,1]'
   ✘ answer: 
   ✘ stdout: '2'
-"
-191,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2511-maximum-enemy-forts-that-can-be-captured,"# [Maximum Enemy Forts That Can Be Captured][title]
+",291,0.026865737135058007
+191,191,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2511-maximum-enemy-forts-that-can-be-captured,"# [Maximum Enemy Forts That Can Be Captured][title]
 
 ## Description
 
@@ -15544,8 +15544,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '[1,0,0,-1,0,0,0,0,1]'
   ✘ answer: 
   ✘ stdout: '6'
-"
-192,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2506-count-pairs-of-similar-strings,"# [Count Pairs Of Similar Strings][title]
+",120,0.028069676955540974
+192,192,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2506-count-pairs-of-similar-strings,"# [Count Pairs Of Similar Strings][title]
 
 ## Description
 
@@ -15611,8 +15611,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 225/225 cases passed (390 ms)
   ✔ Your runtime beats 46.28 % of python submissions
-"
-193,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2506-count-pairs-of-similar-strings,"# [Count Pairs Of Similar Strings][title]
+",79,0.030440481403205967
+193,193,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2506-count-pairs-of-similar-strings,"# [Count Pairs Of Similar Strings][title]
 
 ## Description
 
@@ -15686,8 +15686,8 @@ Line 1  (Solution.py)[39m
 ",0,"  ✔ Accepted
   ✔ 225/225 cases passed (48 ms)
   ✔ Your runtime beats 82.64 % of python submissions
-"
-194,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2506-count-pairs-of-similar-strings,"# [Count Pairs Of Similar Strings][title]
+",81,0.11024775917147413
+194,194,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2506-count-pairs-of-similar-strings,"# [Count Pairs Of Similar Strings][title]
 
 ## Description
 
@@ -15756,8 +15756,8 @@ class Solution(object):
 ",1,"  ✔ Accepted
   ✔ 225/225 cases passed (407 ms)
   ✔ Your runtime beats 46.28 % of python submissions
-"
-195,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2506-count-pairs-of-similar-strings,"# [Count Pairs Of Similar Strings][title]
+",99,0.03725978099938595
+195,195,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2506-count-pairs-of-similar-strings,"# [Count Pairs Of Similar Strings][title]
 
 ## Description
 
@@ -15844,8 +15844,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '[""aba"",""aabb"",""abcd"",""bac"",""aabc""]'
   ✘ answer: 
   ✘ stdout: '0'
-"
-196,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2500-delete-greatest-value-in-each-row,"# [Delete Greatest Value in Each Row][title]
+",183,0.02600577489925864
+196,196,openaichat/gpt-3.5-turbo-0613,0.1,2000,0,leetcode_easy,2500-delete-greatest-value-in-each-row,"# [Delete Greatest Value in Each Row][title]
 
 ## Description
 
@@ -15941,8 +15941,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '[[1,2,4],[3,3,1]]'
   ✘ answer: 
   ✘ stdout: '10'
-"
-197,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2500-delete-greatest-value-in-each-row,"# [Delete Greatest Value in Each Row][title]
+",153,0.027264819425695083
+197,197,openaichat/gpt-4-0314,0.1,2000,0,leetcode_easy,2500-delete-greatest-value-in-each-row,"# [Delete Greatest Value in Each Row][title]
 
 ## Description
 
@@ -16022,8 +16022,8 @@ Line 11  (Solution.py)
   ✘ testcase: '[[1,2,4],[3,3,1]]'
   ✘ answer: 
   ✘ stdout: ''
-"
-198,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2500-delete-greatest-value-in-each-row,"# [Delete Greatest Value in Each Row][title]
+",66,0.04439924341259581
+198,198,openaichat/gpt-3.5-turbo-0301,0.1,2000,0,leetcode_easy,2500-delete-greatest-value-in-each-row,"# [Delete Greatest Value in Each Row][title]
 
 ## Description
 
@@ -16105,8 +16105,8 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '[[1,2,4],[3,3,1]]'
   ✘ answer: 
   ✘ stdout: '7'
-"
-199,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2500-delete-greatest-value-in-each-row,"# [Delete Greatest Value in Each Row][title]
+",100,0.028357844352722168
+199,199,openaichat/gpt-4-0613,0.1,2000,0,leetcode_easy,2500-delete-greatest-value-in-each-row,"# [Delete Greatest Value in Each Row][title]
 
 ## Description
 
@@ -16188,4 +16188,4 @@ Line 1  (Solution.py)[39m
   ✘ testcase: '[[1,2,4],[3,3,1]]'
   ✘ answer: 
   ✘ stdout: '13'
-"
+",91,0.11231676300803385

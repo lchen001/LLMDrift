@@ -1,0 +1,408 @@
+{     
+    "textsynth":
+    {   "gptneox_20B":
+        {
+            "cost_input":0.0000014,
+            "cost_output":0.000035,
+            "cost_fixed":0,
+            "fixed_size":0
+        },
+        
+        "fairseq_gpt_13B":
+        {
+            "cost_input":0.0000006,
+            "cost_output":0.000015,
+            "cost_fixed":0,
+            "fixed_size":0
+        },
+        
+        "gptj_6B":
+        {
+            "cost_input":0.0000002,
+            "cost_output":0.000005,
+            "cost_fixed":0,
+            "fixed_size":0
+        }
+            
+    }, 
+
+    "openai":
+    {   "text-davinci-002":
+        {
+            "cost_input":0.00002,
+            "cost_output":0.00002,
+            "cost_fixed":0,
+            "fixed_size":0
+        },
+
+        "text-davinci-003":
+        {
+            "cost_input":0.00002,
+            "cost_output":0.00002,
+            "cost_fixed":0,
+            "fixed_size":0
+        },
+
+        "text-curie-001":
+        {
+            "cost_input":0.000002,
+            "cost_output":0.000002,
+            "cost_fixed":0,
+            "fixed_size":0
+        },
+        
+        "text-babbage-001":
+        {
+            "cost_input":0.0000005,
+            "cost_output":0.0000005,
+            "cost_fixed":0,
+            "fixed_size":0  
+        },
+
+        "text-ada-001":
+        {
+            "cost_input":0.0000004,
+            "cost_output":0.0000004,
+            "cost_fixed":0,
+            "fixed_size":0  
+        } 
+                    
+    },
+    
+    "openaichat":
+    {   
+        "gpt-3.5-turbo":
+        {
+            "cost_input":0.000002,
+            "cost_output":0.000002,
+            "cost_fixed":0,
+            "fixed_size":0  
+        },
+        "gpt-3.5-turbo-0613":
+        {
+            "cost_input":0.000002,
+            "cost_output":0.000002,
+            "cost_fixed":0,
+            "fixed_size":0  
+        },   
+        "gpt-3.5-turbo-0301":
+        {
+            "cost_input":0.000002,
+            "cost_output":0.000002,
+            "cost_fixed":0,
+            "fixed_size":0  
+        },                
+        "gpt-4-0314":
+        {
+            "cost_input":0.00003,
+            "cost_output":0.00006,
+            "cost_fixed":0,
+            "fixed_size":0  
+        },
+
+        "gpt-4-0613":
+        {
+            "cost_input":0.00003,
+            "cost_output":0.00006,
+            "cost_fixed":0,
+            "fixed_size":0  
+        } ,
+
+        "gpt-4-1106-preview":
+        {
+            "cost_input":0.00003,
+            "cost_output":0.00006,
+            "cost_fixed":0,
+            "fixed_size":0  
+        },
+
+        "gpt-4":
+        {
+            "cost_input":0.00003,
+            "cost_output":0.00006,
+            "cost_fixed":0,
+            "fixed_size":0  
+        }        
+                    
+    },
+    
+    "llama2chat":
+    {   
+        "70b":
+        {
+            "cost_input":0.000002,
+            "cost_output":0.000002,
+            "cost_fixed":0,
+            "fixed_size":0  
+        },
+        "gpt-3.5-turbo-0613":
+        {
+            "cost_input":0.000002,
+            "cost_output":0.000002,
+            "cost_fixed":0,
+            "fixed_size":0  
+        },   
+        "gpt-3.5-turbo-0301":
+        {
+            "cost_input":0.000002,
+            "cost_output":0.000002,
+            "cost_fixed":0,
+            "fixed_size":0  
+        },                
+        "gpt-4-0314":
+        {
+            "cost_input":0.00003,
+            "cost_output":0.00006,
+            "cost_fixed":0,
+            "fixed_size":0  
+        },
+
+        "gpt-4-0613":
+        {
+            "cost_input":0.00003,
+            "cost_output":0.00006,
+            "cost_fixed":0,
+            "fixed_size":0  
+        } ,
+
+        "gpt-4":
+        {
+            "cost_input":0.00003,
+            "cost_output":0.00006,
+            "cost_fixed":0,
+            "fixed_size":0  
+        }        
+                    
+    },
+
+    "azureopenai":
+    {   
+        "gpt-3.5-turbo":
+        {
+            "cost_input":0.000002,
+            "cost_output":0.000002,
+            "cost_fixed":0,
+            "fixed_size":0  
+        },
+        "GPT-35-0613":
+        {
+            "cost_input":0.000002,
+            "cost_output":0.000002,
+            "cost_fixed":0,
+            "fixed_size":0  
+        },   
+        "GPT-35-0301":
+        {
+            "cost_input":0.000002,
+            "cost_output":0.000002,
+            "cost_fixed":0,
+            "fixed_size":0  
+        },                
+        "GPT-4-0314":
+        {
+            "cost_input":0.00003,
+            "cost_output":0.00006,
+            "cost_fixed":0,
+            "fixed_size":0  
+        },
+
+        "GPT-4-0613":
+        {
+            "cost_input":0.00003,
+            "cost_output":0.00006,
+            "cost_fixed":0,
+            "fixed_size":0  
+        } ,
+
+        "GPT-4-0613-32K":
+        {
+            "cost_input":0.00003,
+            "cost_output":0.00006,
+            "cost_fixed":0,
+            "fixed_size":0  
+        }        
+                    
+    },
+
+       
+    "ai21":
+    {   "j1-jumbo":
+        {
+            "cost_input":0,
+            "cost_output":0.00025,
+            "cost_fixed":0.005,
+            "fixed_size":0
+        },
+        
+        "j1-grande":
+        {
+            "cost_input":0,
+            "cost_output":0.00008,
+            "cost_fixed":0.0008,
+            "fixed_size":0
+        },
+        
+        "j1-large":
+        {
+            "cost_input":0,
+            "cost_output":0.00003,
+            "cost_fixed":0.0003,
+            "fixed_size":0 
+        },
+
+        "j2-ultra":
+        {
+            "cost_input":0.000015,
+            "cost_output":0.000015,
+            "cost_fixed":0,
+            "fixed_size":0
+        },
+        
+        "j2-mid":
+        {
+            "cost_input":0.000010,
+            "cost_output":0.000010,
+            "cost_fixed":0,
+            "fixed_size":0
+        },
+        
+        "j2-light":
+        {
+            "cost_input":0.000003,
+            "cost_output":0.000003,
+            "cost_fixed":0.0003,
+            "fixed_size":0 
+        },        
+
+        "experimental/j1-grande-instruct":
+        {
+            "cost_input":0,
+            "cost_output":0.00008,
+            "cost_fixed":0.0008,
+            "fixed_size":0 
+        }
+                    
+    },
+       
+    "cohere":
+    {   
+        "command":
+        {
+            "cost_input":0.000015,
+            "cost_output":0.000015,
+            "cost_fixed":0,
+            "fixed_size":0 
+        },
+
+        "base":
+        {
+            "cost_input":0.000015,
+            "cost_output":0.000015,
+            "cost_fixed":0,
+            "fixed_size":0 
+        },
+
+        "xlarge":
+        {
+            "cost_input":0.0025,
+            "cost_output":0.0025,
+            "cost_fixed":0,
+            "fixed_size":0
+        },
+        
+        "medium":
+        {
+            "cost_input":0.0025,
+            "cost_output":0.0025,
+            "cost_fixed":0,
+            "fixed_size":0
+        },
+        
+        "command-xlarge-nightly":
+        {
+            "cost_input":0.0025,
+            "cost_output":0.0025,
+            "cost_fixed":0,
+            "fixed_size":0 
+        },
+
+        "command-medium-nightly":
+        {
+            "cost_input":0.0025,
+            "cost_output":0.0025,
+            "cost_fixed":0,
+            "fixed_size":0 
+        }
+                    
+    },
+    
+    "ffai":
+    {   "QA":
+        {
+            "cost_input":0.0000058,
+            "cost_output":0.0000058,
+            "cost_fixed":0,
+            "fixed_size":0
+        },
+        
+        "CodeGen":
+        {
+            "cost_input":0.0000058,
+            "cost_output":0.0000058,
+            "cost_fixed":0,
+            "fixed_size":0
+        },
+        
+        "Pythia":
+        {
+            "cost_input":0.0000058,
+            "cost_output":0.0000058,
+            "cost_fixed":0,
+            "fixed_size":0 
+        },
+
+        "experimental/j1-grande-instruct":
+        {
+            "cost_input":0.0025,
+            "cost_output":0.0025,
+            "cost_fixed":0,
+            "fixed_size":0 
+        }
+                    
+    },
+      
+    "anthropic":
+    {   "claude-1":
+        {
+            "cost_input":0.00001102,
+            "cost_output":0.00003268,
+            "cost_fixed":0,
+            "fixed_size":0
+        },
+
+        "claude-2":
+        {
+            "cost_input":0.00001102,
+            "cost_output":0.00003268,
+            "cost_fixed":0,
+            "fixed_size":0
+        },
+        
+        "claude-instant-1":
+        {
+            "cost_input":0.00000163,
+            "cost_output":0.00000551,
+            "cost_fixed":0,
+            "fixed_size":0
+        }, 
+
+        "claude-1-100k":
+        {
+            "cost_input":0.00001102,
+            "cost_output":0.00003268,
+            "cost_fixed":0,
+            "fixed_size":0
+        }
+                    
+    }                
+}

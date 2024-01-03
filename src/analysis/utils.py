@@ -273,6 +273,12 @@ def answer_survey_mc_score(datapoint):
         score = 0
     return score
 
+def string_follow_score(datapoint):
+    return int(datapoint['format_answer']==1.0)
+
+def diversity_score(datapoints):
+    return
+
 def format_answer_survey(datapoint):
     format1 = format_mc(datapoint['ref_answer'])
     format2 = format_mc(datapoint['answer'])
@@ -333,8 +339,8 @@ def format_boxed(datapoint):
             return 'undetermined'
             return string_low
 
-    ref1 = _get_box(datapoint['ref_answer'])
-    ref2 = _get_box(datapoint['answer'])
+    ref1 = _get_box(str(datapoint['ref_answer']))
+    ref2 = _get_box(str(datapoint['answer']))
 
     return ref1, ref2
 
@@ -344,3 +350,45 @@ def format_answer_em(datapoint):
     ref1 = normalize_answer(datapoint['ref_answer'],normal_method=normal_method)
     ref2 = normalize_answer(datapoint['answer'],normal_method=normal_method)
     return ref1, ref2
+
+def format_stringfollow(datapoint):
+    temp= datapoint['ref_answer']
+    ans1 = stringfollow(datapoint)
+    return temp, ans1
+
+def stringfollow(datapoint):
+    string = extract_words(datapoint['answer'].lower())
+    text = datapoint['query']
+    letter = extract_letter(text)
+    start = extract_start(text)
+    # start 
+    if(start):
+        matches = [item[0]==letter for item in string]
+    # or end
+    else:
+        matches = [item[-1]==letter for item in string]
+    return sum(matches)/len(matches)
+
+
+def extract_letter(text):
+    pattern = r'with\s+"(\w)"'
+    match = re.search(pattern, text)
+    if match:
+        return match.group(1)
+    else:
+        return None
+    
+def extract_start(text):
+    pattern = r'start'
+    match = re.search(pattern, text)
+    if match:
+        return match.group(0)
+    else:
+        return None  
+def extract_words(text):
+    pattern = r'\b\w+\b'
+    return re.findall(pattern, text)
+
+
+def latency_score(datapoint):
+    return datapoint['latency']

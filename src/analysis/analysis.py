@@ -1,6 +1,7 @@
-from .utils import calculate_score, calculate_contain_score, eval_code, direct_usable, answer_wrong_question, match_score, calculate_contain_mc_score, calculate_boxed_score, clean_eval_code, executable, calculate_contain_mc_zshot_score
+from .utils import calculate_score, calculate_contain_score, eval_code, direct_usable, answer_wrong_question, match_score, calculate_contain_mc_score, calculate_boxed_score, clean_eval_code, executable, calculate_contain_mc_zshot_score, latency_score
 from .utils import answer_survey_mc_score
 from .utils import format_answer_survey, format_answer_raw, format_answer_yesno, format_boxed, format_answer_em
+from .utils import diversity_score, string_follow_score, format_stringfollow
 
 import numpy, pandas
 
@@ -16,6 +17,9 @@ _SCORE_MAP = {
     "Zeroshot-Multiple-choice Accuracy":calculate_contain_mc_zshot_score,
     "Math Accuracy":calculate_boxed_score,
     "Survey Rate":answer_survey_mc_score,
+    "Diversity":diversity_score,
+    "String Follow Rate":string_follow_score,
+    "Latency":latency_score,
 }
 
 _FORMAT_MAP = {
@@ -24,6 +28,7 @@ _FORMAT_MAP = {
     "Multiple-choice Accuracy":format_answer_survey,
     "Accuracy":format_answer_yesno,
     "Math Accuracy":format_boxed,
+    "String Follow Rate":format_stringfollow,
 }
 
 
@@ -39,6 +44,7 @@ _NAME_MAP = {
     "Math Accuracy":"Accuracy",
     "Zeroshot-Multiple-choice Accuracy":"Accuracy",
     "Survey Rate":"Response Rate",
+    "String Follow Rate":"Instruction Fidelity",
 }
 
 class Analysis(object):
@@ -54,7 +60,7 @@ class Analysis(object):
                 data[['format_ref_answer','format_answer']] = data.apply(lambda x: pandas.Series(method(x)), axis=1)
             return data        
         return
-            
+
     def get_verbosity(self,data):
         data['answer'] = data['answer'].astype(str)
         data['verbosity'] = data['answer'].apply(len)
@@ -63,6 +69,8 @@ class Analysis(object):
         return average_lengths, scores_std
 
     def get_score(self,data,name):
+        if(name=='diversity'):
+            return self.get_diversity(data=data,name=name)
         if name in _SCORE_MAP:
             method = _SCORE_MAP[name]
             if(name in _NAME_MAP):
@@ -103,3 +111,21 @@ class Analysis(object):
             data[name] = data.apply(method,axis=1)
             return         
         
+    def get_diversity(self,data,name):
+        # compute the unique generations
+        result = data.groupby(['model', 'id'])['answer'].nunique()/ data.groupby(['model', 'id'])['answer'].size()
+        scores = result.groupby('model').mean()
+        scores_std = result.groupby('model').std(ddof=0) / numpy.sqrt(data.groupby('model').size())
+        scores.name = name
+        scores_std.name = name
+        return scores, scores_std
+
+        if name in _SCORE_MAP:
+            method = _SCORE_MAP[name]
+            if(name in _NAME_MAP):
+                name = _NAME_MAP[name]
+            if(not(name in data)):
+                data[name] = data.apply(method,axis=1)
+            scores = data.groupby('model')[name].mean()
+            scores_std = data.groupby('model')[name].std(ddof=0) / numpy.sqrt(data.groupby('model').size())
+            return scores, scores_std
