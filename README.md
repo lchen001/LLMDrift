@@ -21,9 +21,13 @@ What are the main findings? In a nutshell, there are many interesting performanc
 but GPT-4 (June 2023) was very poor on these same questions (accuracy 51.1%). Interestingly
 GPT-3.5 (June 2023) was much better than GPT-3.5 (March 2023) in this task. We hope releasing the datasets and generations can help the community to understand how LLM services drift better. The above figure gives a quantatitive summary.
 
-## 🚀 Reproducing the Results
+## 🚀 Reproducing the Figures (No API Needed)
 
 You can directly run the  [Google Colab Notebook](https://colab.research.google.com/github/lchen001/LLMDrift/blob/main/Intro.ipynb) to reproduce the monitored performance drifts in [our paper](https://arxiv.org/pdf/2307.09009.pdf). You don't need API keys to get started. You can also use the [local intro notebook](Intro.ipynb) directly.
+
+## 🕹️ Obtaining ChatGPT Generations (API Needed)
+
+We also offer a Python system to obtain LLM generations for any given datasets. The code and usage instructions can be found [here](https://github.com/lchen001/LLMDrift/tree/main/src/monitor). Note that you need your own OPENAI API KEY to use this feature.
 
 
 ## 💾 Datasets and Generations
@@ -58,6 +62,8 @@ You can find more details in the academic paper:
 
 ## 📣 Updates & Changelog
 
+### 🔹 2024.01.03 - Added Monitoring Code
+  - ✅ Added performance monitoring code to the repository
 
 ### 🔹 2023.08.01 - Added Tasks, Expanded Queries & Analysis
   - ✅ Added four new tasks to the repository
